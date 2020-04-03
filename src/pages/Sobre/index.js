@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Banner from '../../components/Banner'
 import SecaoLink from '../../components/Secao-Link'
-import SecaoList from '../../components/Secao-List'
+import SecaoLista from '../../components/Secao-Lista'
 
 import './styles.css'
 
@@ -37,12 +37,12 @@ export default class Sobre extends Component {
 					title="Sobre mim"
 					description='"Conheça um pouco sobre minha vida acadêmica"'
 				/>
-				<SecaoList
+				<SecaoLista
 					src={imgDados}
 					title="Dados"
 					list={dataList}
 				/>
-				<SecaoList
+				<SecaoLista
 					src={imgCursos}
 					title="Cursos"
 					list={courseList}

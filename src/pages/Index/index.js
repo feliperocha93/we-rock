@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Banner from '../../components/Banner'
 import SecaoLink from '../../components/Secao-Link'
 
+import { Titles, Descriptions, Urls } from '../../enum/pagesEnum';
+
 import './styles.css'
 
 import imgSobre from '../../img/resumo-sobre.jpg'
@@ -16,32 +18,32 @@ export default class Index extends Component {
 		return (
 			<main>
 				<Banner 
-					title="Felipe Rocha"
-					description='"Criando sites, desenvolvendo sonhos"'
+					title={Titles.Home}
+					description={Descriptions.Home}
 				/>
 				<SecaoLink
 					src={imgSobre}
-					title="Sobre mim"
-					description="Criei esse site como forma de mostrar meu trabalho.  Procuro um estágio como Desenvolvedor Front-End."
-					url="/sobre"
+					title={Titles.Sobre}
+					description={Descriptions.Sobre}
+					url={Urls.Sobre}
 				/>
 				<SecaoLink
 					src={imgPortfolio}
-					title="Portfolio"
-					description="Clique no botão abaixo e conheça meus projetos."
-					url="/portfolio"
+					title={Titles.Portfolio}
+					description={Descriptions.Portfolio}
+					url={Urls.Portfolio}
 				/>
 				<SecaoLink
 					src={imgContato}
-					title="Contato"
-					description="Caso apareça alguma dúvida ou sugestão, não deixe de entrar em contato comigo!"
-					url="/contato"
+					title={Titles.Contato}
+					description={Descriptions.Contato}
+					url={Urls.Contato}
 				/>
 				<SecaoLink
 					src={imgBlog}
-					title="Blog"
-					description="Aqui eu vou postando um pouco sobre minha vivência com tecnologia de uma maneira bem prazerosa de ler."
-					url="/blog"
+					title={Titles.Blog}
+					description={Descriptions.Blog}
+					url={Urls.Blog}
 				/>
 			</main>
 		);
