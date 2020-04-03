@@ -26,19 +26,6 @@ export default class Header extends Component {
 		this.setState({isOpen: !this.state.isOpen});
 	};
 
-	renderLink = () => {
-		return links.map( link =>
-			<li>
-				<Link 
-				key={link.route}
-				onClick={this.handleClick}
-				to={link.route}>
-					{link.label}
-				</Link>
-			</li>	
-		);
-}
-
 	render() {
 		const { isOpen } = this.state;
 		const menuMobile = isOpen ? 'ativo' : '';
@@ -55,7 +42,15 @@ export default class Header extends Component {
 						<img src={home} alt="Ícone Home" title="Ícone Home"></img>
 					</Link>
 					<ul>
-						{ this.renderLink() }
+						{links.map( link =>
+							<li key={link.route}>
+								<Link 
+								onClick={this.handleClick}
+								to={link.route}>
+									{link.label}
+								</Link>
+							</li>
+						)}
 					</ul>
 				</nav>
 			</header>

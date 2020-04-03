@@ -23,7 +23,7 @@ const Footer = () => (
 		</ul>
 		<ul>
 			<li><h3>Github</h3></li>
-			<li><a href="https://github.com/feliperocha93" target="_blank" rel="noopener noreferrer"><img src={github} class="contato_github_img" alt="Logo do Github"></img></a></li>
+			<li><a href="https://github.com/feliperocha93" target="_blank" rel="noopener noreferrer"><img src={github} className="contato_github_img" alt="Logo do Github"></img></a></li>
 		</ul>
 	</footer>
 );
