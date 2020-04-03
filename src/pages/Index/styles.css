@@ -1,0 +1,8 @@
+.banner {
+	background: url(../../img/bg-home.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.secao:nth-of-type(2n+1){
+	background-color: #fee;
+}

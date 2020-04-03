@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Felipe Rocha - Contato - Web Designer</title>
+		<meta name="description" content=""/>
+		<meta property="og:title" content="" /> 
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="" />
+		<meta property="og:url" content="" />
+		<meta property="og:image" content="" /> <!--URL-->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<link rel="stylesheet" href="css/style.css">
+		
+		<script src="js/modernizr.custom.45655.js"></script><!-- Verifica se tem JS no browser -->
+	</head>
+	
+	<body>
+		
+<!--HEADER-->
+	<header class="header">
+		<div class="container header_desktop">
+			<a href="index.html" class="grid-8"><img src="img/house_home_13944.png" alt="Ícone Home"></a>
+			<nav class="header_menu">
+				<ul class="grid-8">
+					<li><a href="sobre.html">Sobre mim</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="contato.html" class="menu_ativo">Contato</a></li>
+					<li><a href="blog.html">Blog</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="header_mobile">
+			<img src="img/hamburguer.png" alt="Ícone Menu Hamburguer">
+			<nav class="header_menu header_menu_mobile">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="sobre.html">Sobre mim</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="contato.html">Contato</a></li>
+					<li><a href="blog.html">Blog</a></li>
+				</ul>
+			</nav>	
+		</div>
+	</header>
+<!--	INTRODUÇÃO 	-->
+		<section class="introducao introducao_contato">
+			<div class="container">
+					<h2>Contato</h2>
+					<p>Caso apareça alguma dúvida ou sugestão, não deixe de entrar em contato comigo!</p>
+			</div>
+		</section>
+		
+<!--		FORM + DADOS		-->
+		<section class="form_contato section_zebrada">
+			<div class="container">
+				
+				<form method="post" name="form" class="formphp grid-10">
+					<label for="nome">Nome</label>
+					<input id="nome" name="nome" type="text" class="form_contato_campo">
+					<label for="email">E-mail</label>
+					<input id="email" name="email" type="text" class="form_contato_campo">
+					<label for="telefone">Telefone</label>
+					<input id="telefone" name="telefone" type="text" class="form_contato_campo">
+					<label for="mensagem">Mensagem</label>
+					<textarea name="mensagem" id="mensagem" class="form_contato_campo"></textarea>
+					<button id="enviar" name="enviar" type="submit" class="">Enviar</button>
+				</form>
+			
+				<div class="grid-6 contato_dados">
+					<h3>Dados</h3>
+					<ul>
+						<li><h4>Email</h4></li>
+						<li>fee.rocha@hotmail.com</li><li>felipe.lucena2@fatec.sp.gov.br</li>
+						<li><h4>Telefone</h4></li>
+						<li>(11)95376-2906</li>
+						<li>(11)39074461</li>
+						<li><h4>Endereço</h4></li>
+						<li>Av. do Taboão, 929 - Taboão</li>
+						<li>São Bernardo do Campo - SP</li>
+					</ul>
+				</div>		
+	
+			</div>
+		</section>
+		
+<!--	CALL TO ACTION	-->
+		<div class="call">
+			<div class="container">
+				<p>"Pode dizer que meu sonho é inútil. Os loucos românticos sempre riem por último."</p>
+				<cite>- Filipe Ret</cite>
+			</div>
+		</div>		
+		
+<!--FOOTER		-->
+		<footer class="footer">
+			<div class="container footer_top">
+				<ul class="grid-4">
+					<li><h3>Email</h3></li>
+					<li>fee.rocha@hotmail.com</li>
+					<li>felipe.lucena2@fatec.sp.gov.br</li>
+				</ul>
+				<ul class="grid-4">
+					<li><h3>Telefone</h3></li>
+					<li>(11)95376-2906</li>
+					<li>(11)39074461</li>
+				</ul>
+				<ul class="grid-4">
+					<li><h3>Endereço</h3></li>
+					<li>Av. do Taboão, 929 - Taboão</li>
+					<li>São Bernardo do Campo - SP</li>
+				</ul>
+				<ul class="grid-4">
+					<li><h3>Github</h3></li>
+					<li><a href="https://github.com/feliperocha93" target="_blank"><img src="img/GitHub/GitHub-Mark-32px.png" class="contato_github_img" alt="Logo do Github"></a></li>
+				</ul>
+			</div>
+			<div class="footer_bottom">
+				<p>2019 - Desenvolvido por <a href="index.html">Felipe</a></p>
+			</div>				
+		</footer>
+		
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

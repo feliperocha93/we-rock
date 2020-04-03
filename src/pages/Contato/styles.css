@@ -1,0 +1,27 @@
+.banner {
+	background: url(../../img/bg-contato.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.secao:nth-of-type(2n+1){
+	background-color: #fee;
+}
+
+.call {
+	background: url("../../img/bg-call.jpg") no-repeat center;
+	background-size:cover; 
+	padding: 10px 20px;
+}
+
+.call p {
+	color: #fff;
+	font-size: 12px;
+	font-family: 'Century Gothic';
+	font-style: italic;
+	text-align: center;
+}
+
+.call cite {
+	color: #fff;
+	font-size: 11px;
+}

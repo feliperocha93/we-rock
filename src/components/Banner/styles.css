@@ -1,0 +1,20 @@
+.banner {
+	align-content: center;
+	color: #ffe;
+	display: flex;
+	flex-wrap: wrap;
+	height: 180px;
+	justify-content: center;
+	padding-top: 30px;
+	text-align: center;
+	text-shadow: 1px 1px 1px #a4d555;
+}
+
+.banner h1 {
+	text-transform: uppercase;
+}
+
+.banner p {
+	display: inline-block;
+	font-style: italic;
+}
