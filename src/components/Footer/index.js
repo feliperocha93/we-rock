@@ -1,31 +1,40 @@
-import React from 'react';
+import React from "react";
+import IconeSocial from "../Icone-Social/index";
+import { Contacts, Hrefs } from "../../constants/contactEnum";
 
-import './styles.css';
+import "./styles.css";
 
-import github from '../../img/GitHub-Mark-32px.png'
+import emailIcon from "../../assets/img/GitHub-Mark-32px.png";
+import githubIcon from "../../assets/img/GitHub-Mark-32px.png";
+import linkedinIcon from "../../assets/img/GitHub-Mark-32px.png";
+import whatsppIcon from "../../assets/img/GitHub-Mark-32px.png";
 
 const Footer = () => (
-	<footer className="footer">
-		<ul>
-			<li><h3>Email</h3></li>
-			<li>fee.rocha@hotmail.com</li>
-			<li>felipe.lucena2@fatec.sp.gov.br</li>
-		</ul>
-		<ul>
-			<li><h3>Telefone</h3></li>
-			<li>(11)95376-2906</li>
-			<li>(11)39074461</li>
-		</ul>
-		<ul>
-			<li><h3>Endereço</h3></li>
-			<li>Av. do Taboão, 929 - Taboão</li>
-			<li>São Bernardo do Campo - SP</li>
-		</ul>
-		<ul>
-			<li><h3>Github</h3></li>
-			<li><a href="https://github.com/feliperocha93" target="_blank" rel="noopener noreferrer"><img src={github} className="contato_github_img" alt="Logo do Github"></img></a></li>
-		</ul>
-	</footer>
+  <footer className="footer">
+    <h1>Redes sociais</h1>
+    <div className="flex">
+      <IconeSocial 
+        href={Hrefs.Email}
+        iconImage={emailIcon}
+        iconName={Contacts.Email}
+      />
+      <IconeSocial 
+        href={Hrefs.Github}
+        iconImage={githubIcon}
+        iconName={Contacts.Github}
+      />
+      <IconeSocial 
+        href={Hrefs.Linkedin}
+        iconImage={linkedinIcon}
+        iconName={Contacts.Linkedin}
+      />
+      <IconeSocial 
+        href={Hrefs.Whatsapp}
+        iconImage={whatsppIcon}
+        iconName={Contacts.Whatsapp}
+      />
+    </div>
+  </footer>
 );
 
 export default Footer;

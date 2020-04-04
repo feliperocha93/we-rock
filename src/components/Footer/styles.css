@@ -1,20 +1,30 @@
 .footer {
-    background-color: #a4d555;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    text-align: center;
+  background-color: #a4d555;
+  padding: 30px 20px 10px;
+  text-align: center;
 }
 
-.footer ul {
-    margin-bottom: 30px;
+.footer h1 {
+  color: #ffd;
+  font-size: 18px;
+  font-family: 'Gotu', sans-serif;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, .25);
+}
+
+.footer h1::after {
+  background-color: #ffd;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .25);
+  content: '';
+  display: block;
+  height: 1px;
+  margin: 5px auto 0;
+  width: 90%;
 }
 
 .footer h3 {
-    margin-bottom: 1rem;
-    text-transform: uppercase;
+  
 }
 
-.footer a {
-    display: inline-block;
-    padding: 10px;
-}
