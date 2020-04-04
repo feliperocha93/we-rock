@@ -4,10 +4,10 @@ import { Contacts, Hrefs } from "../../constants/contactEnum";
 
 import "./styles.css";
 
-import emailIcon from "../../assets/img/GitHub-Mark-32px.png";
-import githubIcon from "../../assets/img/GitHub-Mark-32px.png";
-import linkedinIcon from "../../assets/img/GitHub-Mark-32px.png";
-import whatsppIcon from "../../assets/img/GitHub-Mark-32px.png";
+import emailIcon from "../../assets/img/icons/github-icon.png";
+import githubIcon from "../../assets/img/icons/github-icon.png";
+import linkedinIcon from "../../assets/img/icons/github-icon.png";
+import whatsppIcon from "../../assets/img/icons/github-icon.png";
 
 const Footer = () => (
   <footer className="footer">

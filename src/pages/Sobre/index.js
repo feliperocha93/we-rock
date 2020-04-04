@@ -5,11 +5,11 @@ import SecaoLista from '../../components/Secao-Lista';
 
 import './styles.css';
 
-import imgDados from '../../assets/img/dados.jpg';
-import imgCursos from '../../assets/img/cursos.jpg';
-import imgContato from '../../assets/img/resumo-contato.jpg';
+// import imgDados from '../../assets/img/dados.jpg';
+// import imgCursos from '../../assets/img/cursos.jpg';
+// import imgContato from '../../assets/img/resumo-contato.jpg';
 
-import backgroundImage from '../../assets/img/bg-sobre.jpg';
+import backgroundImage from '../../assets/img/banner/bg-sobre.jpg';
 
 const dataList = [
 	"Felipe Rocha de Lucena",
@@ -41,17 +41,17 @@ export default class Sobre extends Component {
 					backgroundImage={backgroundImage}
 				/>
 				<SecaoLista
-					src={imgDados}
+					src={backgroundImage}
 					title="Dados"
 					list={dataList}
 				/>
 				<SecaoLista
-					src={imgCursos}
+					src={backgroundImage}
 					title="Cursos"
 					list={courseList}
 				/>
 				<SecaoLink
-					src={imgContato}
+					src={backgroundImage}
 					title="Contato"
 					description="Caso apareça alguma dúvida ou sugestão, não deixe de entrar em contato comigo!"
 					url="/contato"

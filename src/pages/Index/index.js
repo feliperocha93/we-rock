@@ -5,11 +5,11 @@ import { Titles, Descriptions, Urls } from "../../constants/pagesEnum";
 
 import "./styles.css";
 
-import backgroundImage from "../../assets/img/bg-home.jpg";
-import imgSobre from "../../assets/img/resumo-sobre.jpg";
-import imgPortfolio from "../../assets/img/resumo-portfolio.jpg";
-import imgContato from "../../assets/img/resumo-contato.jpg";
-import imgBlog from "../../assets/img/resumo-blog.jpg";
+import backgroundImage from "../../assets/img/banner/bg-home.jpg";
+import imgSobre from "../../assets/img/thumbs/resumo-sobre.jpg";
+import imgPortfolio from "../../assets/img/thumbs/resumo-portfolio.jpg";
+import imgContato from "../../assets/img/thumbs/resumo-contato.jpg";
+import imgBlog from "../../assets/img/thumbs/resumo-blog.jpg";
 
 export default class Index extends Component {
   render() {

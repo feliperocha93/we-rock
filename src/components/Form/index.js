@@ -2,7 +2,7 @@ import React from 'react';
 
 import './styles.css';
 
-import github from '../../assets/img/GitHub-Mark-32px.png';
+import github from '../../assets/img/icons/github-icon.png';
 
 const Form = () => (
 	<form method="post" name="form" className="formphp grid-10">

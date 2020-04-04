@@ -3,7 +3,7 @@
 }
 
 .call {
-	background: url("../../assets/img/bg-call.jpg") no-repeat center;
+	background: url("../../assets/img/banner/bg-call.jpg") no-repeat center;
 	background-size:cover; 
 	padding: 10px 20px;
 }
