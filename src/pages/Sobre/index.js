@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import Banner from '../../components/Banner'
-import SecaoLink from '../../components/Secao-Link'
-import SecaoLista from '../../components/Secao-Lista'
+import Banner from '../../components/Banner';
+import SecaoLink from '../../components/Secao-Link';
+import SecaoLista from '../../components/Secao-Lista';
 
-import './styles.css'
+import './styles.css';
 
-import imgDados from '../../img/dados.jpg'
-import imgCursos from '../../img/cursos.jpg'
-import imgContato from '../../img/resumo-contato.jpg'
+import imgDados from '../../img/dados.jpg';
+import imgCursos from '../../img/cursos.jpg';
+import imgContato from '../../img/resumo-contato.jpg';
+
+import backgroundImage from '../../img/bg-sobre.jpg';
 
 const dataList = [
 	"Felipe Rocha de Lucena",
@@ -36,6 +38,7 @@ export default class Sobre extends Component {
 				<Banner 
 					title="Sobre mim"
 					description='"Conheça um pouco sobre minha vida acadêmica"'
+					backgroundImage={backgroundImage}
 				/>
 				<SecaoLista
 					src={imgDados}

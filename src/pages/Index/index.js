@@ -6,6 +6,7 @@ import { Titles, Descriptions, Urls } from '../../enum/pagesEnum';
 
 import './styles.css'
 
+import backgroundImage from '../../img/bg-home.jpg'
 import imgSobre from '../../img/resumo-sobre.jpg'
 import imgPortfolio from '../../img/resumo-portfolio.jpg'
 import imgContato from '../../img/resumo-contato.jpg'
@@ -14,12 +15,12 @@ import imgBlog from '../../img/resumo-blog.jpg'
 export default class Index extends Component {
 
 	render() {
-
 		return (
 			<main>
 				<Banner 
 					title={Titles.Home}
 					description={Descriptions.Home}
+					backgroundImage={backgroundImage}
 				/>
 				<SecaoLink
 					src={imgSobre}
