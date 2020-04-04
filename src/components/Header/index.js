@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 import './styles.css';
 
-import hamburguer from '../../img/hamburguer.png'
-import home from '../../img/house_home_13944.png'
+import hamburguer from '../../assets/img/irock-menu.png'
+import home from '../../assets/img/irock-home.png'
 
 const links = [
 	{ route: "/sobre", label: "Sobre"},

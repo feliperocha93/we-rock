@@ -5,11 +5,11 @@ import SecaoLista from '../../components/Secao-Lista';
 
 import './styles.css';
 
-import imgDados from '../../img/dados.jpg';
-import imgCursos from '../../img/cursos.jpg';
-import imgContato from '../../img/resumo-contato.jpg';
+import imgDados from '../../assets/img/dados.jpg';
+import imgCursos from '../../assets/img/cursos.jpg';
+import imgContato from '../../assets/img/resumo-contato.jpg';
 
-import backgroundImage from '../../img/bg-sobre.jpg';
+import backgroundImage from '../../assets/img/bg-sobre.jpg';
 
 const dataList = [
 	"Felipe Rocha de Lucena",

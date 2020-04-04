@@ -4,9 +4,9 @@ import SecaoPort from '../../components/Secao-Port'
 
 import './styles.css'
 
-import imgFoster from '../../img/portfolio/foster1.JPG'
-import imgBikraft from '../../img/portfolio/bikcraft2.JPG'
-import imgForm from '../../img/portfolio/form1.JPG'
+import imgFoster from '../../assets/img/portfolio/foster1.JPG'
+import imgBikraft from '../../assets/img/portfolio/bikcraft2.JPG'
+import imgForm from '../../assets/img/portfolio/form1.JPG'
 
 export default class Portfolio extends Component {
 
