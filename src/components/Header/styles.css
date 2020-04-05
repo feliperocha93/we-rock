@@ -2,12 +2,6 @@
 	background-color: #a4d555;
 }
 
-.header > img {
-	border: 3px solid #a4d555;
-	margin: 10px;
-	padding: 5px;
-}
-
 .header nav {
 	background-color: #a4d555;
 	height: 100%;
@@ -26,8 +20,6 @@
 
 .header button {
 	background: none;
-	color: #ffe;
-	font-size: 1.5rem;
 	padding: 10px;
 	position: absolute;
 	right: 0;
@@ -36,6 +28,7 @@
 
 .header ul > li {
 	border-bottom: 1px solid #ffe;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .header ul > li:first-child {

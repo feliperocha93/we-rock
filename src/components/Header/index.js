@@ -1,17 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { MdMenu, MdClose } from 'react-icons/md';
+import { Urls } from '../../constants/pagesEnum';
 
 import './styles.css';
 
-import hamburguer from '../../assets/img/irock-menu.png'
 import home from '../../assets/img/irock-home.png'
-
-const links = [
-	{ route: "/sobre", label: "Sobre"},
-	{ route: "/portfolio", label: "Portfolio"},
-	{ route: "/contato", label: "Contato"},
-	{ route: "/blog", label: "Blog"},
-];
 
 export default class Header extends Component {
 	constructor(props) {
@@ -24,6 +18,10 @@ export default class Header extends Component {
 
 	handleClick() {
 		this.setState({isOpen: !this.state.isOpen});
+
+		const body = document.querySelector('body');
+		const overflow = this.state.isOpen ? '' : 'hidden';
+		body.style.overflow = overflow;
 	};
 
 	render() {
@@ -32,27 +30,35 @@ export default class Header extends Component {
 
 		return (
 			<header className="header">
-				<button onClick={this.handleClick}><img src={hamburguer} alt="Ícone Menu Hamburguer" title="Ícone Menu Hamburguer"></img></button>
+
+				<button onClick={this.handleClick}>
+					<MdMenu size={36} color="#ffd" />
+				</button>
+
 				<nav className={menuMobile}>
-					<button onClick={this.handleClick}>X</button>
-					<Link
-					onClick={this.handleClick}
-					to="/"
-					>
-						<img src={home} alt="Ícone Home" title="Ícone Home"></img>
+					<button onClick={this.handleClick}>
+						<MdClose size={36} color="#ffd" />
+					</button>
+
+					<Link onClick={this.handleClick} to="/" >
+						<img
+							src={home}
+							alt="Ícone Home"
+							title="Ícone Home"/>
 					</Link>
+
 					<ul>
-						{links.map( link =>
-							<li key={link.route}>
-								<Link 
-								onClick={this.handleClick}
-								to={link.route}>
-									{link.label}
+						{Object.entries(Urls).map(([key, value]) =>
+							key !== 'Home' ?
+							<li key={key}>
+								<Link onClick={this.handleClick} to={value}>
+									{key}
 								</Link>
-							</li>
+							</li> : null
 						)}
 					</ul>
 				</nav>
+				
 			</header>
 		);
 	}
