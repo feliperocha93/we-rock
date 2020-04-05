@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Banner from '../../components/Banner'
-import SecaoPort from '../../components/Secao-Port'
+import SecaoPort from '../../components/SecaoPort'
 
 import './styles.css'
 

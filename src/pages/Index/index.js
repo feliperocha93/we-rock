@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Banner from "../../components/Banner";
-import SecaoLink from "../../components/Secao-Link";
+import SecaoLink from "../../components/SecaoLink";
 import { Descriptions, Names, Titles, Urls } from "../../constants/pagesEnum";
 
 import "./styles.css";

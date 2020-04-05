@@ -1,5 +1,5 @@
 import React from "react";
-import IconeSocial from "../Icone-Social/index";
+import IconeSocial from "../IconeSocial/index";
 import { Hrefs } from "../../constants/contactEnum";
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedin, FaGithub, FaHeart, FaWhatsapp } from 'react-icons/fa';

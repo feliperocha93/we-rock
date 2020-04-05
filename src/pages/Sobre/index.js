@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Banner from '../../components/Banner';
-import SecaoLink from '../../components/Secao-Link';
-import SecaoLista from '../../components/Secao-Lista';
+import SecaoLink from '../../components/SecaoLink';
+import SecaoLista from '../../components/SecaoLista';
 
 import './styles.css';
 
