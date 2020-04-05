@@ -1,39 +1,52 @@
 import React from "react";
 import IconeSocial from "../Icone-Social/index";
-import { Contacts, Hrefs } from "../../constants/contactEnum";
+import { Hrefs } from "../../constants/contactEnum";
+import { AiOutlineMail } from 'react-icons/ai';
+import { FaLinkedin, FaGithub, FaHeart, FaWhatsapp } from 'react-icons/fa';
 
 import "./styles.css";
 
-import emailIcon from "../../assets/img/icons/github-icon.png";
-import githubIcon from "../../assets/img/icons/github-icon.png";
-import linkedinIcon from "../../assets/img/icons/github-icon.png";
-import whatsppIcon from "../../assets/img/icons/github-icon.png";
+const [iconSize, iconColor, miniIconSize] = [32, "#ffd", 12];
 
 const Footer = () => (
   <footer className="footer">
-    <h1>Redes sociais</h1>
-    <div className="flex">
-      <IconeSocial 
-        href={Hrefs.Email}
-        iconImage={emailIcon}
-        iconName={Contacts.Email}
-      />
-      <IconeSocial 
-        href={Hrefs.Github}
-        iconImage={githubIcon}
-        iconName={Contacts.Github}
-      />
-      <IconeSocial 
-        href={Hrefs.Linkedin}
-        iconImage={linkedinIcon}
-        iconName={Contacts.Linkedin}
-      />
-      <IconeSocial 
-        href={Hrefs.Whatsapp}
-        iconImage={whatsppIcon}
-        iconName={Contacts.Whatsapp}
-      />
+    <div className="container">
+
+      <h1>Redes sociais</h1>
+
+      <div className="flex">
+        <IconeSocial 
+          href={Hrefs.Email}
+          icon={<AiOutlineMail size={iconSize} color ={iconColor} />}
+          >
+        </IconeSocial>
+
+        <IconeSocial 
+          href={Hrefs.Github}
+          icon={<FaGithub size={iconSize} color ={iconColor} />}
+          >
+        </IconeSocial>
+        
+        <IconeSocial 
+          href={Hrefs.Linkedin}
+          icon={<FaLinkedin size={iconSize} color ={iconColor} />}
+          >
+        </IconeSocial>
+
+        <IconeSocial 
+          href={Hrefs.Whatsapp}
+          icon={<FaWhatsapp size={iconSize} color ={iconColor} />}
+          >
+        </IconeSocial>
+      </div>
     </div>
+
+    <div class="footer-bottom">
+      <span>
+        Feito com <FaHeart size={miniIconSize} color={iconColor} /> 2020
+      </span>
+    </div>
+
   </footer>
 );
 

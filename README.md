@@ -8,7 +8,13 @@ Agora, com um pouco mais de experiência e alguns pequenos projetos finalizados 
 
 Inicialmente terminarei o front usando ReactJS. A parte de backend ainda me deixa em dúvida. Estou entre usar node e consumir a API do Wordpress. Eu sei que parece um pouco óbvio escolher node, mas o ponto é que, essa vivência com Wordpress pode ser muito útil para minha pois penso que React/Wordpress + Woocommerce pode ser uma boa e rápida alternativa para desenvolver ecommerces comercialmente. E um dinheiro extra é sempre bem-vindo, né?!
 
+#### Icons:
+- npm i react-icons  
+https://react-icons.netlify.com/#/search
+
+#### Problemas com Cross-Browser:
+- mailto: não funciona no chromiun;
+
 #### BACKLOG:
-- Continuar criando objetos de dados tipo enum para remover as strings das páginas
-- Estilizar o parágrafo do banner
+
 

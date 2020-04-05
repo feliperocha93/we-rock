@@ -1,7 +1,5 @@
 .footer {
   background-color: #a4d555;
-  padding: 30px 20px 10px;
-  text-align: center;
 }
 
 .footer h1 {
@@ -10,8 +8,9 @@
   font-family: 'Gotu', sans-serif;
   margin-bottom: 20px;
   letter-spacing: 1.5px;
-  text-transform: uppercase;
+  text-align: center;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, .25);
+  text-transform: uppercase;
 }
 
 .footer h1::after {
@@ -24,7 +23,11 @@
   width: 90%;
 }
 
-.footer h3 {
-  
+.footer-bottom {
+  /* background-color: #fc9999; */
+  font-family: 'Montserrat';
+  font-size: 10px;
+  letter-spacing: 3px;
+  padding: 5px 20px;
+  text-align: center;
 }
-
