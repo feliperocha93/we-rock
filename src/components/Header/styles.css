@@ -12,6 +12,7 @@
 	transition: left .2s ease-out;
 	top: 0;
 	width: 100%;
+	z-index: 1;
 }
 
 .header nav.ativo {
