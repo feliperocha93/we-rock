@@ -18,10 +18,12 @@ export default class Header extends Component {
 
 	handleClick() {
 		this.setState({isOpen: !this.state.isOpen});
-
-		const body = document.querySelector('body');
-		const overflow = this.state.isOpen ? '' : 'hidden';
-		body.style.overflow = overflow;
+		
+		if (window.innerWidth < 767.8) {
+			const body = document.querySelector('body');
+			const overflow = this.state.isOpen ? '' : 'hidden';
+			body.style.overflow = overflow;
+		}
 	};
 
 	render() {
@@ -51,7 +53,10 @@ export default class Header extends Component {
 						{Object.entries(Urls).map(([key, value]) =>
 							key !== 'Home' ?
 							<li key={key}>
-								<Link onClick={this.handleClick} to={value}>
+								<Link
+									className="hover-border"
+									onClick={this.handleClick}
+									to={value}>
 									{key}
 								</Link>
 							</li> : null

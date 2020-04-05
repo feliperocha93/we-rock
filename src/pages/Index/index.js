@@ -15,39 +15,44 @@ export default class Index extends Component {
   render() {
     return (
       <main className="home">
+        
         <Banner
           title={Titles.Home}
           description={Descriptions.Home}
           backgroundImage={backgroundImage}
         />
-        <SecaoLink
-          src={imgSobre}
-          name={Names.Sobre}
-          title={Titles.Sobre}
-          description={Descriptions.Sobre}
-          url={Urls.Sobre}
-        />
-        <SecaoLink
-          src={imgPortfolio}
-          name={Names.Portfolio}
-          title={Titles.Portfolio}
-          description={Descriptions.Portfolio}
-          url={Urls.Portfolio}
-        />
-        <SecaoLink
-          src={imgContato}
-          name={Names.Contato}
-          title={Titles.Contato}
-          description={Descriptions.Contato}
-          url={Urls.Contato}
-        />
-        <SecaoLink
-          src={imgBlog}
-          name={Names.Blog}
-          title={Titles.Blog}
-          description={Descriptions.Blog}
-          url={Urls.Blog}
-        />
+
+        <div className="content">
+          <SecaoLink
+            src={imgSobre}
+            name={Names.Sobre}
+            title={Titles.Sobre}
+            description={Descriptions.Sobre}
+            url={Urls.Sobre}
+          />
+          <SecaoLink
+            src={imgPortfolio}
+            name={Names.Portfolio}
+            title={Titles.Portfolio}
+            description={Descriptions.Portfolio}
+            url={Urls.Portfolio}
+          />
+          <SecaoLink
+            src={imgContato}
+            name={Names.Contato}
+            title={Titles.Contato}
+            description={Descriptions.Contato}
+            url={Urls.Contato}
+          />
+          <SecaoLink
+            src={imgBlog}
+            name={Names.Blog}
+            title={Titles.Blog}
+            description={Descriptions.Blog}
+            url={Urls.Blog}
+          />
+        </div>
+
       </main>
     );
   }

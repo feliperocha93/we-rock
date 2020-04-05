@@ -30,15 +30,16 @@
 .secao p {
 	font-size: 18px;
 	margin-bottom: 30px;
+	min-height: 55px;
 	text-align: center;
 }
 
 .secao .btn {
-	border-radius: 10px;
 	color: #4cdef5;
 	font-family: 'Montserrat';
 	font-size: 18px;
+	height: 27px;
 	padding: 0 20px;
 	text-align: center;
-	text-shadow: 1px 1px 10px rgba(164, 213, 85, .35);
+	text-shadow: 1px 1px 6px rgba(164, 213, 85, .5);
 }

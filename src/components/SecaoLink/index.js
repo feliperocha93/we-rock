@@ -11,14 +11,14 @@ export default class Secao extends Component {
 
 					<img
 						src={this.props.src}
-						className="rounded-img"
+						className="rounded-img hover-scale"
 						alt={`Imagem de chamada para página ${this.props.name}`}
 						title={this.props.title}/>
 
 					<h3>{this.props.title}</h3>
 					<p>{this.props.description}</p>
 
-					<Link to={this.props.url}className="btn">
+					<Link to={this.props.url} className="btn hover-border">
 						{this.props.name}
 					</Link>	
 

@@ -15,33 +15,37 @@ const Footer = () => (
       <h1>Redes sociais</h1>
 
       <div className="flex">
-        <IconeSocial 
+        <IconeSocial
+          color={iconColor}
           href={Hrefs.Email}
-          icon={<AiOutlineMail size={iconSize} color ={iconColor} />}
+          icon={<AiOutlineMail size={iconSize} color={iconColor} />}
           >
         </IconeSocial>
 
         <IconeSocial 
+          color={iconColor}
           href={Hrefs.Github}
-          icon={<FaGithub size={iconSize} color ={iconColor} />}
+          icon={<FaGithub size={iconSize} color={iconColor} />}
           >
         </IconeSocial>
         
         <IconeSocial 
+          color={iconColor}
           href={Hrefs.Linkedin}
-          icon={<FaLinkedin size={iconSize} color ={iconColor} />}
+          icon={<FaLinkedin size={iconSize} color={iconColor} />}
           >
         </IconeSocial>
 
-        <IconeSocial 
+        <IconeSocial
+          color={iconColor} 
           href={Hrefs.Whatsapp}
-          icon={<FaWhatsapp size={iconSize} color ={iconColor} />}
+          icon={<FaWhatsapp size={iconSize} color={iconColor} />}
           >
         </IconeSocial>
       </div>
     </div>
 
-    <div class="footer-bottom">
+    <div className="footer-bottom">
       <span>
         Feito com <FaHeart size={miniIconSize} color={iconColor} /> 2020
       </span>
