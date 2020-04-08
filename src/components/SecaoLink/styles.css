@@ -8,26 +8,24 @@
 	bottom: 0px;
 	box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, );
 	content: "";
-	/* display: block; */
 	height: 1px;
 	position: absolute;
 	top: bottom;
 	width: 100%;
-	/* z-index: 1;*/
 }
 
 .secao img {
 	margin-bottom: 60px;
 }
 
-.secao h3 {
+.secao h2 {
 	font-family: 'Gotu', sans-serif;
 	font-size: 24px;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
 
-.secao p {
+.secao span {
 	font-size: 18px;
 	margin-bottom: 30px;
 	min-height: 55px;

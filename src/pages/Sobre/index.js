@@ -2,59 +2,49 @@ import React, { Component } from 'react';
 import Banner from '../../components/Banner';
 import SecaoLink from '../../components/SecaoLink';
 import SecaoLista from '../../components/SecaoLista';
+import { Descriptions, Names, Titles, Urls } from '../../constants/pagesEnum';
+import { Textos } from '../../constants/sobreEnum';
 
 import './styles.css';
 
-// import imgDados from '../../assets/img/dados.jpg';
-// import imgCursos from '../../assets/img/cursos.jpg';
-// import imgContato from '../../assets/img/resumo-contato.jpg';
-
 import backgroundImage from '../../assets/img/banner/bg-sobre.jpg';
+import imgRock from '../../assets/img/sobre/irock-me.jpg';
+import imgContent from '../../assets/img/sobre/irock-content.jpg';
+import imgRockPlus from '../../assets/img/sobre/irock-plus.jpg';
+import imgContact from '../../assets/img/thumbs/resumo-contato.jpg';
 
-const dataList = [
-	"Felipe Rocha de Lucena",
-	"Brasileiro, solteiro, 26 anos",
-	"Fatec São Caetnao do Sul",
-	"Segurança da Informação",
-	"4º Semestre",
-	"Objetivo: Estágio em dev Front-end",
-]
 
-const courseList = [
-	"HTML5 e CSS3 I - Alura - 32 horas",
-	"HTML5 e CSS3 II - Alura – 40 horas",
-	"Web Design Completo	- Origamid – 44 horas",
-	"JavaScript - Alura – 20 horas",
-	"JavaScript e jQuery - Origamid – 18 horas",
-	"Bootstrap - Alura – 12 horas",
-]
 
 export default class Sobre extends Component {
-
 	render() {
-
 		return (
 			<main>
 				<Banner 
-					title="Sobre mim"
-					description='"Conheça um pouco sobre minha vida acadêmica"'
+					title={Titles.Sobre}
+					description={Descriptions.Sobre}
 					backgroundImage={backgroundImage}
 				/>
 				<SecaoLista
-					src={backgroundImage}
-					title="Dados"
-					list={dataList}
+					src={imgRock}
+					title="I'm Rock"
+					paragraphs={Textos.Introdução}
 				/>
 				<SecaoLista
-					src={backgroundImage}
-					title="Cursos"
-					list={courseList}
+					src={imgContent}
+					title="Conteúdo"
+					paragraphs={Textos.Especificações}
+				/>
+				<SecaoLista
+					src={imgRockPlus}
+					title="Mais de mim"
+					paragraphs={Textos.Pessoal}
 				/>
 				<SecaoLink
-					src={backgroundImage}
-					title="Contato"
-					description="Caso apareça alguma dúvida ou sugestão, não deixe de entrar em contato comigo!"
-					url="/contato"
+					src={imgContact}
+					title={Titles.Contato}
+					description={Descriptions.Contato}
+					url={Urls.Contato}
+					name={Names.Contato}
 				/>
 			</main>
 		);

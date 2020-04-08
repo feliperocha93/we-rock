@@ -15,8 +15,8 @@ export default class Secao extends Component {
 						alt={`Imagem de chamada para página ${this.props.name}`}
 						title={this.props.title}/>
 
-					<h3>{this.props.title}</h3>
-					<p>{this.props.description}</p>
+					<h2>{this.props.title}</h2>
+					<span>{this.props.description}</span>
 
 					<Link to={this.props.url} className="btn hover-border">
 						{this.props.name}

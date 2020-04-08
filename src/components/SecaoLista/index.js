@@ -6,13 +6,24 @@ export default class SecaoLista extends Component {
 	
 	render() {
 		return (
-			<section className="secao">
-        <div>
-          <img src={this.props.src} className="rounded-img" alt={this.props.alt} title={this.props.title}></img>
-          <h3>{this.props.title}</h3>
-          <ul>
-            {this.props.list.map(item => <li key={item}>{item}</li>)}
-          </ul>
+			<section className="secao sobre">
+        <div className="container flex-column">
+
+          <div>
+            <img
+              src={this.props.src}
+              className="rounded-img hover-scale"
+              alt={this.props.alt}
+              title={this.props.title}></img>
+            <h3>{this.props.title}</h3>
+          </div>
+
+          <div className="paragraphs">
+            {this.props.paragraphs.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
+          </div>
+
         </div>
       </section>
 		);
