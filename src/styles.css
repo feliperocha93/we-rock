@@ -95,3 +95,7 @@ ol, ul {
 	height: 200px;
 	width: 200px;
 }
+
+.secao:nth-of-type(even){
+	background-color: #fee;
+}

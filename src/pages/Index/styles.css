@@ -1,7 +1,3 @@
-.home .secao:nth-of-type(2n){
-	background-color: #fee;
-}
-
 @media only screen and (min-width: 959.8px) {
 	.home .content {
 		display: flex;
