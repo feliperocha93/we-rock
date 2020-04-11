@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/feliperocha93/refactor-my-site/static/css/main.7b833cc5.chunk.css",
+    "main.js": "/feliperocha93/refactor-my-site/static/js/main.9076ae05.chunk.js",
+    "main.js.map": "/feliperocha93/refactor-my-site/static/js/main.9076ae05.chunk.js.map",
+    "runtime-main.js": "/feliperocha93/refactor-my-site/static/js/runtime-main.d67cb9e5.js",
+    "runtime-main.js.map": "/feliperocha93/refactor-my-site/static/js/runtime-main.d67cb9e5.js.map",
+    "static/js/2.f52740ac.chunk.js": "/feliperocha93/refactor-my-site/static/js/2.f52740ac.chunk.js",
+    "static/js/2.f52740ac.chunk.js.map": "/feliperocha93/refactor-my-site/static/js/2.f52740ac.chunk.js.map",
+    "index.html": "/feliperocha93/refactor-my-site/index.html",
+    "precache-manifest.04ec67299c320d1fcec94bcc1e018ad3.js": "/feliperocha93/refactor-my-site/precache-manifest.04ec67299c320d1fcec94bcc1e018ad3.js",
+    "service-worker.js": "/feliperocha93/refactor-my-site/service-worker.js",
+    "static/css/main.7b833cc5.chunk.css.map": "/feliperocha93/refactor-my-site/static/css/main.7b833cc5.chunk.css.map",
+    "static/media/styles.css": "/feliperocha93/refactor-my-site/static/media/bg-call.d2b25d62.jpg",
+    "static/media/bg-contato.jpg": "/feliperocha93/refactor-my-site/static/media/bg-contato.d50edc24.jpg",
+    "static/media/bg-home.jpg": "/feliperocha93/refactor-my-site/static/media/bg-home.76fb3664.jpg",
+    "static/media/bg-sobre.jpg": "/feliperocha93/refactor-my-site/static/media/bg-sobre.8525774b.jpg",
+    "static/media/bikcraft2.JPG": "/feliperocha93/refactor-my-site/static/media/bikcraft2.e39b2ee4.JPG",
+    "static/media/form1.JPG": "/feliperocha93/refactor-my-site/static/media/form1.c0b8d07f.JPG",
+    "static/media/foster1.JPG": "/feliperocha93/refactor-my-site/static/media/foster1.82ed59fb.JPG",
+    "static/media/irock-content.jpg": "/feliperocha93/refactor-my-site/static/media/irock-content.38949b03.jpg",
+    "static/media/irock-me.jpg": "/feliperocha93/refactor-my-site/static/media/irock-me.2a4ba0a7.jpg",
+    "static/media/irock-plus.jpg": "/feliperocha93/refactor-my-site/static/media/irock-plus.be134225.jpg",
+    "static/media/resumo-blog.jpg": "/feliperocha93/refactor-my-site/static/media/resumo-blog.4d6f482a.jpg",
+    "static/media/resumo-contato.jpg": "/feliperocha93/refactor-my-site/static/media/resumo-contato.3052dcb8.jpg",
+    "static/media/resumo-portfolio.jpg": "/feliperocha93/refactor-my-site/static/media/resumo-portfolio.8934c47c.jpg",
+    "static/media/resumo-sobre.jpg": "/feliperocha93/refactor-my-site/static/media/resumo-sobre.05adc07b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d67cb9e5.js",
+    "static/js/2.f52740ac.chunk.js",
+    "static/css/main.7b833cc5.chunk.css",
+    "static/js/main.9076ae05.chunk.js"
+  ]
+}
