@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
+
 import Banner from '../../components/Banner'
+import SecaoLista from "../../components/SecaoLista";
+import Form from "../../components/Form";
+
+import { Descriptions, Names, Titles } from '../../constants/pagesEnum'
+import { Textos } from '../../constants/contactEnum'
 
 import './styles.css'
 
+import backgroundImage from '../../assets/img/banner/bg-contato.jpg';
 export default class Contato extends Component {
 
 	render() {
@@ -10,9 +17,15 @@ export default class Contato extends Component {
 		return (
 			<main>
 				<Banner 
-					title="Contato"
-					description='Caso apareça alguma dúvida ou sugestão, não deixe de entrar em contato comigo!'
+					title={Titles.Contato}
+					description={Descriptions.Contato}
+					backgroundImage={backgroundImage}
 				/>
+				<SecaoLista
+					title={Names.Contato}
+					paragraphs={Textos.Introdução}
+				/>
+				<Form />
 				<section className="call">
 					<p>"Pode dizer que meu sonho é inútil. Os loucos românticos sempre riem por último."</p>
 					<cite>- Filipe Ret</cite>
