@@ -1,0 +1,22 @@
+@media only screen and (min-width: 747.8px) {
+	.sobre .container {
+		padding: 60px 20px;
+	}
+
+	.sobre > .flex-column {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.secao.sobre .paragraphs {
+		max-width: 50%;
+	}
+
+	.secao:nth-of-type(even).sobre  .paragraphs {
+		order: -1;
+	}
+
+	.secao.sobre p {
+		align-self: baseline;
+	}
+}

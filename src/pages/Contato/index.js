@@ -24,12 +24,15 @@ export default class Contato extends Component {
 				<SecaoLista
 					title={Names.Contato}
 					paragraphs={Textos.Introdução}
+					customClass="contato"
 				/>
 				<Form 
 				/>
-				<section className="call container">
-					<p>"Pode dizer que meu sonho é inútil. Os loucos românticos sempre riem por último."</p>
-					<small>- Filipe Ret</small>
+				<section className="call">
+					<div className="container">
+						<p>"Pode dizer que meu sonho é inútil. Os loucos românticos sempre riem por último."</p>
+						<small>- Filipe Ret</small>
+					</div>
 				</section>
 			</main>
 		);

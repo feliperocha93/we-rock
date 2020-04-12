@@ -16,3 +16,15 @@
 	align-self: flex-end;
 	font-size: 12px;
 }
+
+@media only screen and (min-width: 747.8px) {
+	.contato.secao p {
+		max-width: 620px;
+	}
+}
+
+@media only screen and (min-width: 959.8px) {
+	.contato.secao p {
+		max-width: 800px;
+	}
+}

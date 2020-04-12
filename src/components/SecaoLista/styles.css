@@ -9,32 +9,11 @@
 .secao p {
 	font-size: 18px;
 	margin-bottom: 20px;
-	text-align: left;
+	text-align: justify;
 }
 
 @media only screen and (min-width: 747.8px) {
-	.sobre .container {
-		padding: 60px 20px;
-	}
-
-	.sobre > .flex-column {
-		flex-direction: row;
-		justify-content: space-around;
-	}
-
-	.secao h3 {
+	.secao  h3 {
 		font-size: 30px;
-	}
-
-	.secao .paragraphs {
-		max-width: 50%;
-	}
-
-	.secao:nth-of-type(even) .paragraphs {
-		order: -1;
-	}
-
-	.secao p {
-		align-self: baseline;
 	}
 }

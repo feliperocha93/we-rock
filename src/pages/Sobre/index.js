@@ -28,16 +28,19 @@ export default class Sobre extends Component {
 					src={imgRock}
 					title="I'm Rock"
 					paragraphs={Textos.Introdução}
+					customClass='sobre'
 				/>
 				<SecaoLista
 					src={imgContent}
 					title="Conteúdo"
 					paragraphs={Textos.Especificações}
+					customClass='sobre'
 				/>
 				<SecaoLista
 					src={imgRockPlus}
 					title="Mais de mim"
 					paragraphs={Textos.Pessoal}
+					customClass='sobre'
 				/>
 				<SecaoLink
 					src={imgContact}

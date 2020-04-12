@@ -17,7 +17,7 @@ export default class SecaoLista extends Component {
 	
 	render() {
 		return (
-			<section className="secao sobre">
+			<section className={`secao ${this.props.customClass}`}>
         <div className="container flex-column">
 
           <div>
