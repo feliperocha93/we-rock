@@ -1,0 +1,44 @@
+.formulario form {
+  width: 300px;
+}
+
+.formulario label {
+  align-self: flex-start;
+  color: #999;
+}
+
+.formulario input {
+  border-bottom: 1px solid #999;
+  border-radius: 0px;
+  color: #333;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 5px;
+  text-indent: 5px;
+  width: 100%;
+}
+
+.formulario textarea {
+  border: 1px solid #999;
+  border-radius: 2px;
+  color: #333;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  min-height: 120px;
+  padding: 5px;
+  text-indent: 5px;
+  width: 100%;
+  -webkit-appearance: none;
+}
+
+.formulario textarea:focus {
+  outline: none;
+}
+
+.formulario .btn {
+  background-color: transparent;
+  height: 28px; /*To avoid jumping when hovering*/
+}
