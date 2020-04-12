@@ -25,10 +25,11 @@ export default class Contato extends Component {
 					title={Names.Contato}
 					paragraphs={Textos.Introdução}
 				/>
-				<Form />
-				<section className="call">
+				<Form 
+				/>
+				<section className="call container">
 					<p>"Pode dizer que meu sonho é inútil. Os loucos românticos sempre riem por último."</p>
-					<cite>- Filipe Ret</cite>
+					<small>- Filipe Ret</small>
 				</section>
 			</main>
 		);

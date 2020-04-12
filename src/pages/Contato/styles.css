@@ -1,18 +1,18 @@
 .call {
 	background: url("../../assets/img/banner/bg-call.jpg") no-repeat center;
 	background-size:cover; 
-	padding: 10px 20px;
+	color: #fff;
+	font-family: 'Century Gothic';
 }
 
 .call p {
-	color: #fff;
-	font-size: 12px;
-	font-family: 'Century Gothic';
 	font-style: italic;
+	line-height: 1.2;
+	margin-bottom: 10px;
 	text-align: center;
 }
 
-.call cite {
-	color: #fff;
-	font-size: 11px;
+.call small {
+	align-self: flex-end;
+	font-size: 12px;
 }
