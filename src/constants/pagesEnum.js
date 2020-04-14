@@ -22,7 +22,6 @@ export const Titles = {
   Blog: 'iRock Blog'
 }
 
-
 export const Urls = {
   Home: '/',
   Sobre: '/sobre',

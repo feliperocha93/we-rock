@@ -16,5 +16,6 @@ https://react-icons.netlify.com/#/search
 - mailto: não funciona no chromiun;
 
 #### BACKLOG:
-
+- Adicionar um modal após o formulário ser enviado;
+- Validação com yup;
 

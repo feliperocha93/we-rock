@@ -2,10 +2,21 @@ import React, { Component } from "react";
 
 import './styles.css';
 
+const encode = (data) => {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+}
+
 export default class Form extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      nome: '',
+      email: '',
+      whatsapp: '',
+      mensagem: '',
+    };
   }
 
   handleChange = e => {
@@ -13,8 +24,15 @@ export default class Form extends Component {
   };
 
   handleSubmit = e => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "form-contato", ...this.state })
+    })
+      .then(() => alert("Success!"))
+      .catch(error => alert(error));
+
     e.preventDefault();
-    console.log("Enviado");
   };
 
   render() {
@@ -26,21 +44,20 @@ export default class Form extends Component {
           <form
             className="flex-column"
             name="form-contato"
-            method="post"
             onSubmit={this.handleSubmit}>
             <input type="hidden" name="form-name" value="form-contato" />
 
             <label>Nome</label>
-            <input type="text" name="nome"/>
+            <input type="text" name="nome" onChange={this.handleChange}/>
 
             <label>Email</label>
-            <input type="email" name="email"/>
+            <input type="email" name="email" onChange={this.handleChange}/>
 
             <label>Whatsapp</label> 
-            <input type="number" name="whatsapp"/>
+            <input type="number" name="whatsapp" onChange={this.handleChange}/>
 
             <label>Mensagem</label>
-            <textarea name="mensagem"></textarea>
+            <textarea name="mensagem" onChange={this.handleChange}></textarea>
 
             <button type="submit" className="btn hover-border">Enviar</button>
           </form>
