@@ -1,7 +1,7 @@
 export const Descriptions = {
   Home: 'Criando sites, desenvolvendo sonhos',
   Sobre: 'Um pouco do Felipe. Um pouco do Rocha',
-  Portfolio: 'Visite minhas obras e me dê estrelas no Github',
+  Portfolio: 'Conheça minhas obras no Github',
   Contato: 'Vamos conversar sobre qualquer coisa',
   Blog: 'Veja o que eu tenho pra te falar'
 }
@@ -28,4 +28,12 @@ export const Urls = {
   Portfolio: '/portfolio',
   Contato: '/contato',
   Blog: '/blog'
+}
+
+export const Classes = {
+  Home: 'home',
+  Sobre: 'sobre',
+  Portfolio: 'portfolio',
+  Contato: 'contato',
+  Blog: 'blog'
 }
