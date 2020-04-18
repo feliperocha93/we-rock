@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Banner from '../../components/Banner';
 import SecaoLink from '../../components/SecaoLink';
 import SecaoLista from '../../components/SecaoLista';
-import { Descriptions, Names, Titles, Urls } from '../../constants/pagesEnum';
+import { Classes, Descriptions, Names, Titles, Urls } from '../../constants/pagesEnum';
 import { Textos } from '../../constants/sobreEnum';
 
 import './styles.css';
@@ -28,19 +28,19 @@ export default class Sobre extends Component {
 					src={imgRock}
 					title="I'm Rock"
 					paragraphs={Textos.Introdução}
-					customClass='sobre'
+					customClass={Classes.Sobre}
 				/>
 				<SecaoLista
 					src={imgContent}
 					title="Conteúdo"
 					paragraphs={Textos.Especificações}
-					customClass='sobre'
+					customClass={Classes.Sobre}
 				/>
 				<SecaoLista
 					src={imgRockPlus}
 					title="Mais de mim"
 					paragraphs={Textos.Pessoal}
-					customClass='sobre'
+					customClass={Classes.Sobre}
 				/>
 				<SecaoLink
 					src={imgContact}

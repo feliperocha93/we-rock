@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { FaDesktop, FaGithub } from 'react-icons/fa';
 
 
@@ -27,12 +26,12 @@ export default class SecaoPort extends Component {
           </div>
           
           <div className="flex">
-            <Link to={this.props.domain}>
+            <a href={this.props.domain} target="_blank" rel="noopener noreferrer">
               <FaDesktop size={32} color='#000' />
-            </Link>
-            <Link to={this.props.repo}>
+            </a>
+            <a href={this.props.repo} target="_blank" rel="noopener noreferrer">
               <FaGithub size={32} color='#000' />
-            </Link>
+            </a>
           </div>
 
         </div>

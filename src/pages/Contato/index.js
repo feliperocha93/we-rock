@@ -4,7 +4,7 @@ import Banner from '../../components/Banner'
 import SecaoLista from "../../components/SecaoLista";
 import Form from "../../components/Form";
 
-import { Descriptions, Names, Titles } from '../../constants/pagesEnum'
+import { Classes, Descriptions, Names, Titles } from '../../constants/pagesEnum'
 import { Textos } from '../../constants/contactEnum'
 
 import './styles.css'
@@ -24,7 +24,7 @@ export default class Contato extends Component {
 				<SecaoLista
 					title={Names.Contato}
 					paragraphs={Textos.Introdução}
-					customClass="contato"
+					customClass={Classes.Contato}
 				/>
 				<Form 
 				/>
