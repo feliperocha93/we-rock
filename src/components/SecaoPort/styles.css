@@ -1,0 +1,10 @@
+.secao.portfolio img {
+  border: 3px solid #242424;
+  border-radius: 2px;
+  box-shadow: 0 0 4px 2px #a4d555;
+  opacity: 0.6;
+}
+
+.secao.portfolio .flex {
+  width: 100%;
+}

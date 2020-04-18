@@ -1,38 +1,43 @@
 import React, { Component } from 'react';
 import Banner from '../../components/Banner'
 import SecaoPort from '../../components/SecaoPort'
+import { PortfolioItems } from '../../constants/portEnum'
+import { Classes, Descriptions, Titles } from "../../constants/pagesEnum";
 
 import './styles.css'
 
-import imgFoster from '../../assets/img/portfolio/foster1.JPG'
-import imgBikraft from '../../assets/img/portfolio/bikcraft2.JPG'
-import imgForm from '../../assets/img/portfolio/form1.JPG'
+import backgroundImage from '../../assets/img/banner/bg-portfolio.jpg';
+import bthImage from "../../assets/img/portfolio/dev-be-the-hero.png";
+import ffImage from "../../assets/img/portfolio/dev-facility-food.png";
+import hhImage from "../../assets/img/portfolio/dev-hooligan-hookah.png";
+
+const images = [bthImage, ffImage, hhImage]
 
 export default class Portfolio extends Component {
-
 	render() {
-
 		return (
 			<main>
+
 				<Banner 
-					title="Portfolio"
-					description='Conheça alguns dos meus projetos. Todos os códigos estão disponíveis no meu GitHub'
+					title={Titles.Portfolio}
+					description={Descriptions.Portfolio}
+          backgroundImage={backgroundImage}
 				/>
-				<SecaoPort
-					title="Site com protótipo"
-					src={imgFoster}
-					url="https://www.github.com/feliperocha93"
-				/>
-				<SecaoPort
-					title="Site responsivo"
-					src={imgBikraft}
-					url="https://www.github.com/feliperocha93"
-					/>
-				<SecaoPort
-					title="Form inteligente"
-					src={imgForm}
-					url="https://www.github.com/feliperocha93"
-				/>
+
+				{PortfolioItems.map((item, index) => {
+					return (
+						<SecaoPort
+						key={item.title}
+						title={item.title}
+						src={images[index]}
+						paragraphs={item.paragraphs}
+						domain={item.domain}
+						repo={item.repo}
+						customClass={Classes.Portfolio}
+						/>
+					)
+				})}
+
 			</main>
 		);
 	}
