@@ -1,6 +1,6 @@
 import React from "react";
 import IconeSocial from "../IconeSocial/index";
-import { Hrefs } from "../../constants/contactEnum";
+import { Hrefs, Titles } from "../../constants/contactEnum";
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedin, FaGithub, FaHeart, FaWhatsapp } from 'react-icons/fa';
 
@@ -19,6 +19,7 @@ const Footer = () => (
           color={iconColor}
           href={Hrefs.Email}
           icon={<AiOutlineMail size={iconSize} color={iconColor} />}
+          title={Titles.Email}
           >
         </IconeSocial>
 
@@ -26,6 +27,7 @@ const Footer = () => (
           color={iconColor}
           href={Hrefs.Github}
           icon={<FaGithub size={iconSize} color={iconColor} />}
+          title={Titles.Github}
           >
         </IconeSocial>
         
@@ -33,6 +35,7 @@ const Footer = () => (
           color={iconColor}
           href={Hrefs.Linkedin}
           icon={<FaLinkedin size={iconSize} color={iconColor} />}
+          title={Titles.Linkedin}
           >
         </IconeSocial>
 
@@ -40,6 +43,7 @@ const Footer = () => (
           color={iconColor} 
           href={Hrefs.Whatsapp}
           icon={<FaWhatsapp size={iconSize} color={iconColor} />}
+          title={Titles.Whatsapp}
           >
         </IconeSocial>
       </div>

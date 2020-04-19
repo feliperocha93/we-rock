@@ -7,6 +7,7 @@ const IconeSocial = (props) => (
     style={{color: props.color}}
     className="hover-scale"
     href={props.href}
+    title={props.title}
     target="_blank"
     rel="noopener noreferrer">
       {props.icon}

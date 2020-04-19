@@ -28,6 +28,13 @@ export const Textos = {
   `Quero receber seu feedback do blog e sugestões de conteúdo. Também pode me contratar para um freela, ver meus projetos no GitHub ou me adicionar no Linkedin.`
   ]
 }
+
+export const Titles = {
+  Email: 'Clique para me enviar um e-mail',
+  Github: 'Visite meu repositório no Github',
+  Linkedin: 'Me adicione no Linkedin',
+  Whatsapp: 'Me envie uma mensagem no Whatsapp',
+}
   
 
 

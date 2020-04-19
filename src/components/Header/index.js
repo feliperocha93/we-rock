@@ -46,7 +46,8 @@ export default class Header extends Component {
 						<img
 							src={home}
 							alt="Ícone Home"
-							title="Ícone Home"/>
+							className="hover-scale"
+							title="Ir para Home"/>
 					</Link>
 
 					<ul>

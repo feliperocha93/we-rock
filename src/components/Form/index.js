@@ -59,7 +59,12 @@ export default class Form extends Component {
             <label>Mensagem</label>
             <textarea name="mensagem" onChange={this.handleChange}></textarea>
 
-            <button type="submit" className="btn hover-border">Enviar</button>
+            <button
+              type="submit"
+              title="Clique após preencher o formulário"
+              className="btn hover-border">
+                Enviar
+            </button>
           </form>
 
         </div>

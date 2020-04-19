@@ -18,7 +18,10 @@ export default class Secao extends Component {
 					<h2>{this.props.title}</h2>
 					<span>{this.props.description}</span>
 
-					<Link to={this.props.url} className="btn hover-border">
+					<Link
+						to={this.props.url}
+						title={`Navegue até ${this.props.name}`}
+						className="btn hover-border">
 						{this.props.name}
 					</Link>	
 
