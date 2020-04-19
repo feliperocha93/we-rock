@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Banner from "../../components/Banner";
 import SecaoLink from "../../components/SecaoLink";
-import { Descriptions, Names, Titles, Urls } from "../../constants/pagesEnum";
+import { Classes, Descriptions, Names, Titles, Urls } from "../../constants/pagesEnum";
 
 import "./styles.css";
 
@@ -29,6 +29,7 @@ export default class Index extends Component {
             title={Titles.Sobre}
             description={Descriptions.Sobre}
             url={Urls.Sobre}
+            customClass={Classes.Home}
           />
           <SecaoLink
             src={imgPortfolio}
@@ -36,6 +37,7 @@ export default class Index extends Component {
             title={Titles.Portfolio}
             description={Descriptions.Portfolio}
             url={Urls.Portfolio}
+            customClass={Classes.Home}
           />
           <SecaoLink
             src={imgContato}
@@ -43,6 +45,7 @@ export default class Index extends Component {
             title={Titles.Contato}
             description={Descriptions.Contato}
             url={Urls.Contato}
+            customClass={Classes.Home}
           />
           <SecaoLink
             src={imgBlog}
@@ -50,6 +53,7 @@ export default class Index extends Component {
             title={Titles.Blog}
             description={Descriptions.Blog}
             url={Urls.Blog}
+            customClass={Classes.Home}
           />
         </div>
 

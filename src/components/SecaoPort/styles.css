@@ -5,6 +5,10 @@
   opacity: 0.6;
 }
 
+.secao.portfolio img:hover {
+  cursor: pointer;
+}
+
 .secao.portfolio .flex {
   width: 100%;
 }

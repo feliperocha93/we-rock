@@ -6,7 +6,7 @@ export default class SecaoLista extends Component {
 	render() {
 		return (
 			<section className={`secao ${this.props.customClass}`}>
-        <div className="container flex-column">
+        <div className="container align-center">
 
           <div>
             {this.props.src ?

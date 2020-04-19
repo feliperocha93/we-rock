@@ -1,11 +1,9 @@
 @media only screen and (min-width: 747.8px) {
 	.sobre .container {
-		padding: 60px 20px;
-	}
-
-	.sobre > .flex-column {
 		flex-direction: row;
 		justify-content: space-around;
+		max-width: 1280px;
+		padding: 60px 0px;
 	}
 
 	.secao.sobre .paragraphs {

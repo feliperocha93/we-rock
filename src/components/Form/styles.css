@@ -41,7 +41,9 @@
 
 .formulario .btn {
   background-color: transparent;
+  display: block;
   height: 28px; /*To avoid jumping when hovering*/
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 747.8px) {

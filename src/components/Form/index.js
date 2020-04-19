@@ -38,11 +38,11 @@ export default class Form extends Component {
   render() {
     return (
       <section className="secao formulario">
-        <div className="container flex-column">
+        <div className="container align-center">
 
           <h3>Formulário</h3>
           <form
-            className="flex-column"
+            className="align-center"
             name="form-contato"
             onSubmit={this.handleSubmit}>
             <input type="hidden" name="form-name" value="form-contato" />

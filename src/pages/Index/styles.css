@@ -4,11 +4,11 @@
 		max-width: 100%;
 	}
 
-	.content .secao {
+	.secao.home {
 		width: 25%;
 	}
 
-	.content .flex-column {
+	.secao.home .container {
 		height: 100vh;
 		justify-content: center;
 	}

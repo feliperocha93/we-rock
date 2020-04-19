@@ -6,8 +6,8 @@ import './styles.css';
 export default class Secao extends Component {
 	render() {
 		return (
-			<section className="secao">
-				<div className="container flex-column">
+			<section className={`secao ${this.props.customClass}`}>
+				<div className="container align-center">
 
 					<img
 						src={this.props.src}

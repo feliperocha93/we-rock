@@ -45,7 +45,7 @@ export const Introducao = {
   title: 'Portfolio',
   paragraphs: [
     `O intuito desta seção é mostrar meus últimos trabalhos desenvolvidos, demonstrando qualidade e compromisso com a
-    entrega`,
+    entrega.`,
     `Toda empresa aqui exposta está devidamente informada e de acordo com a causa, igualmente para os códigos em
      repositório público no Github. `,
     `Que tal entrar em contato para acharmos uma solução para o seu problema?`,

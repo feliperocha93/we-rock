@@ -57,23 +57,21 @@ ol, ul {
   list-style: none;
 }
 
+.align-center {
+  align-items: center;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 620px;
   padding: 30px 20px;
 }
 
 .flex {
   display: flex;
   justify-content: space-evenly;
-}
-
-.flex-column {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
 }
 
 .hover-border,
@@ -99,3 +97,11 @@ ol, ul {
 .secao:nth-of-type(even){
 	background-color: #fee;
 }
+
+@media only screen and (min-width: 767.8px) and (max-width: 959.8px) { }
+
+@media only screen and (min-width: 959.8px) { 
+  .container {
+    max-width: 800px;
+  }
+ }
