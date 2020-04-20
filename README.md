@@ -16,6 +16,12 @@ https://react-icons.netlify.com/#/search
 - mailto: não funciona no chromiun;
 
 #### BACKLOG:
+- Blog: {
+  - Primeira seção: Escolha seu assunto - pesquisa pela tag ou nome no input
+  - Uma página de post;
+  - Consumir HTML no corpo do post;  
+  - Uma seção para cadastro de e-mail marketing (ao fim do feed ou em outras áreas do site);  
+}  
 - Adicionar um modal após o formulário ser enviado;
-- Validação com yup;
+- Validação do formulário com yup;
 
