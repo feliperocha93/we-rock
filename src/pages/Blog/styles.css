@@ -2,6 +2,58 @@
   background-color: rgba(255, 238, 255, .5);
 }
 
+.blog .tags {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+
+.blog small {
+  color: #999;
+  line-height: 2;
+  margin-right: 10px;
+}
+
+.blog input {
+  background-color: transparent;
+  border-bottom: 1px solid #999;
+  color: #666;
+  font-size: 1em;
+  margin-top: 15px;
+  padding-bottom: 5px;
+  text-indent: 20px;
+  width: 100%;
+}
+
+.blog input::placeholder {
+  color: #999;
+}
+
+.blog .input-bar {
+  position: relative;
+}
+
+.blog .input-bar svg {
+  bottom: 6px;
+  right: 15px;
+  position: absolute;
+}
+
+.blog h2 {
+  font-family: 'Gotu', sans-serif;
+  line-height: 1;
+  margin-bottom: 20px;
+  position: relative;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.blog h2 > svg {
+  position: absolute;
+  right: -20px;
+  top: -10px;
+}
+
 .card {
   background-color: #fff;
   border-radius: 12px;
@@ -20,9 +72,4 @@
 .card h5 {
   font-weight: normal;
   margin-bottom: 10px;
-}
-
-.card small {
-  color: #999;
-  margin-right: 10px;
 }
