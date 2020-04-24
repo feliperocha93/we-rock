@@ -17,10 +17,13 @@ https://react-icons.netlify.com/#/search
 
 #### BACKLOG:
 - Blog: {
-  - Uma página de post;
+  - Desktop: Ajustar min-height quando não houver posts calc(100vh - header - banner - footer - ...);
+  - Estilizar página de post (Seta para voltar para o feed);
+  - Uma seção para cadastro de e-mail marketing (ao fim do blog);  
+  - Ajustar tamanho da lupa (no celular está ruim);
   - Consumir HTML no corpo do post;  
-  - Uma seção para cadastro de e-mail marketing (ao fim do feed ou em outras áreas do site);  
 }  
 - Adicionar um modal após o formulário ser enviado;
 - Validação do formulário com yup;
+- Na searchBar do Blog, colocar validação de no minimo 3 caracteres;
 
