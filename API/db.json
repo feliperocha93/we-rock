@@ -10,7 +10,11 @@
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!"
       ],
-      "keywords": ["form", "react", "netlify"]
+      "keywords": [
+        "form",
+        "react",
+        "netlify"
+      ]
     },
     {
       "id": 2,
@@ -22,7 +26,11 @@
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!"
       ],
-      "keywords": ["react", "react-router-dom", "netlify"]
+      "keywords": [
+        "react",
+        "react-router-dom",
+        "netlify"
+      ]
     },
     {
       "id": 3,
@@ -34,7 +42,12 @@
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!"
       ],
-      "keywords": ["form", "react", "npm"]
+      "keywords": [
+        "form",
+        "react",
+        "npm",
+        "netlify"
+      ]
     },
     {
       "id": 4,
@@ -46,7 +59,11 @@
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!"
       ],
-      "keywords": ["api", "json-server"]
+      "keywords": [
+        "api",
+        "json-server",
+        "npm"
+      ]
     },
     {
       "id": 5,
@@ -58,7 +75,11 @@
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!"
       ],
-      "keywords": ["form", "backend"]
+      "keywords": [
+        "form",
+        "backend",
+        "netlify"
+      ]
     },
     {
       "id": 6,
@@ -70,7 +91,11 @@
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!"
       ],
-      "keywords": ["textarea", "css"]
+      "keywords": [
+        "textarea",
+        "css",
+        "resize"
+      ]
     },
     {
       "id": 7,
@@ -82,7 +107,13 @@
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!"
       ],
-      "keywords": ["box-shadow", "textarea", "Safari", "css"]
+      "keywords": [
+        "box-shadow",
+        "textarea",
+        "Safari",
+        "css",
+        "responsividade"
+      ]
     },
     {
       "id": 8,
@@ -94,11 +125,15 @@
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!"
       ],
-      "keywords": ["frontend", "mobile", "css"]
+      "keywords": [
+        "frontend",
+        "mobile",
+        "css",
+        "npm"
+      ]
     }
-
   ],
-  "user":[
+  "user": [
     {
       "id": 1,
       "email": "fee.rocha@hotmail.com",
@@ -112,21 +147,70 @@
       "password": "4567"
     }
   ],
-  "tags":[ 
-    {"id":1, "name": "github"},
-    {"id":2, "name": "react"},
-    {"id":3, "name": "node"},
-    {"id":4, "name": "netlify"},
-    {"id":5, "name": "deploy" },
-    {"id":6, "name": "npm"},
-    {"id":7, "name": "form"},
-    {"id":8, "name": "react-router-dom" },
-    {"id":9, "name": "API" },
-    {"id":10, "name": "json-server" },
-    {"id":11, "name": "textarea"},
-    {"id":12, "name": "box-shadow"},
-    {"id":13, "name": "Safari" },
-    {"id":14, "name": "Css"}
+  "tags": [
+    {
+      "id": 1,
+      "name": "github"
+    },
+    {
+      "id": 2,
+      "name": "react"
+    },
+    {
+      "id": 3,
+      "name": "node"
+    },
+    {
+      "id": 4,
+      "name": "netlify"
+    },
+    {
+      "id": 5,
+      "name": "deploy"
+    },
+    {
+      "id": 6,
+      "name": "npm"
+    },
+    {
+      "id": 7,
+      "name": "form"
+    },
+    {
+      "id": 8,
+      "name": "react-router-dom"
+    },
+    {
+      "id": 9,
+      "name": "API"
+    },
+    {
+      "id": 10,
+      "name": "json-server"
+    },
+    {
+      "id": 11,
+      "name": "textarea"
+    },
+    {
+      "id": 12,
+      "name": "box-shadow"
+    },
+    {
+      "id": 13,
+      "name": "safari"
+    },
+    {
+      "id": 14,
+      "name": "css"
+    },
+    {
+      "id": 15,
+      "name": "responsividade"
+    },
+    {
+      "id": 16,
+      "name": "resize"
+    }
   ]
 }
-

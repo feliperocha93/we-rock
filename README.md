@@ -17,7 +17,6 @@ https://react-icons.netlify.com/#/search
 
 #### BACKLOG:
 - Blog: {
-  - Primeira seção: Escolha seu assunto - pesquisa pela tag ou nome no input
   - Uma página de post;
   - Consumir HTML no corpo do post;  
   - Uma seção para cadastro de e-mail marketing (ao fim do feed ou em outras áreas do site);  
