@@ -27,3 +27,5 @@ https://react-icons.netlify.com/#/search
 - Validação do formulário com yup;
 - Na searchBar do Blog, colocar validação de no minimo 3 caracteres;
 
+#### Sugestão para API:
+- https://blog.rocketseat.com.br/adonis-auth-jwt-api-rest/
