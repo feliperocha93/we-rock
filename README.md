@@ -17,7 +17,6 @@ https://react-icons.netlify.com/#/search
 
 #### BACKLOG:
 - Blog: {
-  - Desktop: Ajustar min-height quando não houver posts calc(100vh - header - banner - footer - ...);
   - Estilizar página de post (Seta para voltar para o feed);
   - Uma seção para cadastro de e-mail marketing (ao fim do blog);  
   - Ajustar tamanho da lupa (no celular está ruim);
