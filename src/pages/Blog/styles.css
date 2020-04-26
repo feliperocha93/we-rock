@@ -1,0 +1,52 @@
+.blog .tags {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.blog .tags.center {
+  justify-content: center;
+}
+
+.blog svg {
+  cursor: pointer;
+  position: absolute;
+}
+
+.blog small {
+  color: #999;
+  cursor: pointer;
+  line-height: 2;
+  margin-right: 10px;
+}
+
+.blog input {
+  background-color: transparent;
+  border-bottom: 1px solid #999;
+  border-radius: 0;
+  color: #666;
+  font-size: 1em;
+  margin-top: 15px;
+  padding-bottom: 5px;
+  text-indent: 20px;
+  width: 100%;
+}
+
+.blog input::placeholder {
+  color: #999;
+}
+
+.blog .input-bar {
+  position: relative;
+}
+
+.blog h2 {
+  font-family: 'Gotu', sans-serif;
+  line-height: 1;
+  margin-bottom: 20px;
+  position: relative;
+  text-transform: uppercase;
+  width: fit-content;
+}

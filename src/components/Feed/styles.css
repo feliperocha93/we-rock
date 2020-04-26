@@ -3,64 +3,14 @@
   min-height: calc(100vh - 77px - 180px - 172px);
 }
 
-.feed .tags {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 10px 0;
-}
-
-.feed svg {
-  cursor: pointer;
-  position: absolute;
-}
-
 .feed a {
   color: #333;
   display: block;
 }
 
-.feed small {
-  color: #999;
-  cursor: pointer;
-  line-height: 2;
-  margin-right: 10px;
-}
-
-.feed input {
-  background-color: transparent;
-  border-bottom: 1px solid #999;
-  border-radius: 0;
-  color: #666;
-  font-size: 1em;
-  margin-top: 15px;
-  padding-bottom: 5px;
-  text-indent: 20px;
-  width: 100%;
-}
-
-.feed input::placeholder {
-  color: #999;
-}
-
-.feed .input-bar {
-  position: relative;
-}
-
 .feed .input-bar svg {
   bottom: 6px;
   right: 15px;
-}
-
-.feed h2 {
-  font-family: 'Gotu', sans-serif;
-  line-height: 1;
-  margin-bottom: 20px;
-  position: relative;
-  text-transform: uppercase;
-  width: fit-content;
 }
 
 .feed h2 > svg.new {

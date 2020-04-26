@@ -10,7 +10,6 @@ import './styles.css'
 import backgroundImage from '../../assets/img/banner/bg-blog1.jpg';
 
 export default class Blog extends Component {
-
 	render() {
 		return (
 			<main className="blog">

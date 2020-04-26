@@ -15,6 +15,7 @@ const Routes = () => (
 		<Route path="/portfolio" component={Portfolio} />
 		<Route path="/contato" component={Contato} />
 		<Route path="/blog" component={Blog} />
+		<Route path="/posts/:id" component={Blog} />
 	</Switch>
 );
 

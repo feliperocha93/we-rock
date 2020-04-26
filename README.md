@@ -17,7 +17,7 @@ https://react-icons.netlify.com/#/search
 
 #### BACKLOG:
 - Blog: {
-  - Estilizar página de post (Seta para voltar para o feed);
+  - REFATORAR: Criar página para post
   - Uma seção para cadastro de e-mail marketing (ao fim do blog);  
   - Ajustar tamanho da lupa (no celular está ruim);
   - Consumir HTML no corpo do post;  

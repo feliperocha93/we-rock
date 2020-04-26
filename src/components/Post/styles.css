@@ -1,0 +1,23 @@
+.blog .post .container {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.blog .post h2 {
+  line-height: 1.5;
+  margin-bottom: 48px;
+}
+
+.blog .post svg {
+  bottom: -36px;
+  left: 0;
+}
+
+.blog .post p {
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+.blog .post .tags {
+  margin: 0;
+}

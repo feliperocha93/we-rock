@@ -8,6 +8,7 @@ import './styles.css';
 
 export default class Feed extends Component {
   state = {
+    newPosts: [],
     keyword: '',
     posts: [],
     researched: false,
@@ -15,26 +16,30 @@ export default class Feed extends Component {
     title: 'Mais recente',
   }
 
-  newPosts = [];
-
   async componentDidMount() {
     const postsResponse = await api.get('posts?_limit=4&_sort=id&_order=desc');
-    this.newPosts = postsResponse.data;
-    this.setState({ posts: this.newPosts });
+    this.setState({ newPosts: postsResponse.data, posts: postsResponse.data });
 
     const tagsResponse = await api.get('tags');
     this.setState({ tags: tagsResponse.data });
+
+    if (this.props.location.query) this.searchKeyword(this.props.location.query);
+
   }
 
-  async searchKeyword(e, searchBy) {
-    const keyword = searchBy === 'tag' ? e.target.innerHTML : this.state.keyword;
+  async searchKeyword(keyword) {
     const searchResponse = await api.get(`posts?keywords_like=${keyword}`);
 
     this.setState({ keyword, posts: searchResponse.data, researched: true, title: keyword });
   }
 
+  getKeyword(e, searchBy) {
+    const keyword = searchBy === 'tag' ? e.target.innerHTML : this.state.keyword;
+    this.searchKeyword(keyword);
+  }
+
   backInitialFeed = () => {
-    this.setState({ keyword: '', posts: this.newPosts, title: 'Mais recente' });
+    this.setState({ keyword: '', posts: this.state.newPosts, title: 'Mais recente' });
   }
 
   handleChange = e => {
@@ -47,13 +52,13 @@ export default class Feed extends Component {
       <section className="feed">
         <article className="container">
           <h3>O que VOCÊ quer estudar hoje?</h3>
-          <div className="tags">
+          <div className="tags center">
             {tags.map(tag => {
               return (
                 <small
                   key={tag.id}
-                  onClick={(e) => this.searchKeyword(e, 'tag')}
-                  onTouchStartCapture={(e) => this.searchKeyword(e, 'tag')}>
+                  onClick={(e) => this.getKeyword(e, 'tag')}
+                  onTouchStartCapture={(e) => this.getKeyword(e, 'tag')}>
                   {tag.name}
                 </small>
               )
@@ -61,7 +66,7 @@ export default class Feed extends Component {
           </div>
           <div className="input-bar">
             <input placeholder="Digite um assunto..." type="text" value={keyword} onChange={this.handleChange} />
-            <MdSearch size={24} color="#999" onClick={(e) => this.searchKeyword(e, 'input')} />
+            <MdSearch size={24} color="#999" onClick={(e) => this.getKeyword(e, 'input')} />
           </div>
         </article>
 
@@ -76,8 +81,8 @@ export default class Feed extends Component {
           {posts.length > 0 ?
             posts.map(item => {
               return (
-                <div className="card hover-scale    " key={item.id}>
-                  <Link to={`blog/post?${item.id}`}>
+                <div className="card hover-scale" key={item.id}>
+                  <Link to={{ pathname: `posts/${item.id}`, query: keyword }}>
                     <h3>{item.title}</h3>
                     <h5>{`${item.userId} - ${item.date}`}</h5>
                     <div className="tags">
