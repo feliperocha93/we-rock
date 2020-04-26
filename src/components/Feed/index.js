@@ -56,6 +56,7 @@ export default class Feed extends Component {
             {tags.map(tag => {
               return (
                 <small
+                  className="hover-scale"
                   key={tag.id}
                   onClick={(e) => this.getKeyword(e, 'tag')}
                   onTouchStartCapture={(e) => this.getKeyword(e, 'tag')}>
@@ -66,7 +67,7 @@ export default class Feed extends Component {
           </div>
           <div className="input-bar">
             <input placeholder="Digite um assunto..." type="text" value={keyword} onChange={this.handleChange} />
-            <MdSearch size={24} color="#999" onClick={(e) => this.getKeyword(e, 'input')} />
+            <MdSearch size={24} color="#999" className="hover-scale" onClick={(e) => this.getKeyword(e, 'input')} />
           </div>
         </article>
 
@@ -75,7 +76,7 @@ export default class Feed extends Component {
             {title}
             {title === 'Mais recente' ?
               <MdFiberNew size={20} color="#add555" className="new" /> :
-              <MdExitToApp size={36} color="#c3c3c3" onClick={this.backInitialFeed} className="back" />}
+              <MdExitToApp size={36} color="#c3c3c3" onClick={this.backInitialFeed} className="back hover-scale" />}
           </h2>
 
           {posts.length > 0 ?

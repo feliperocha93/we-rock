@@ -33,7 +33,7 @@ export default class Post extends Component {
           <h2>
             {title}
             <Link to={{ pathname: '/blog', query }}>
-              <MdExitToApp size={36} color="#c3c3c3" onClick={this.backInitialFeed} className="back" />
+              <MdExitToApp className="hover-scale" size={36} color="#c3c3c3" onClick={this.backInitialFeed} />
             </Link>
           </h2>
 
@@ -43,10 +43,11 @@ export default class Post extends Component {
           <div className="tags">
             {keywords.map(keyword => {
               return (
-                <Link key={keyword} to={{
-                  pathname: '/blog',
-                  query: keyword
-                }}>
+                <Link
+                  className="hover-scale"
+                  key={keyword}
+                  to={{ pathname: '/blog', query: keyword }}
+                >
                   <small>{keyword}</small>
                 </Link>
               )
