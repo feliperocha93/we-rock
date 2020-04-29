@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import Banner from "../../components/Banner";
 import SecaoLink from "../../components/SecaoLink";
-import { Classes, Descriptions, Names, Titles, Urls } from "../../constants/pagesEnum";
+import { HomeConfig } from "../../constants/pages/homeEnum";
+import { SobreConfig } from "../../constants/pages/sobreEnum";
+import { PortfolioConfig } from "../../constants/pages/portfolioEnum";
+import { ContatoConfig } from "../../constants/pages/contatoEnum";
+import { BlogConfig } from "../../constants/pages/blogEnum";
 
 import "./styles.css";
 
@@ -15,45 +19,45 @@ export default class Index extends Component {
   render() {
     return (
       <main className="home">
-        
+
         <Banner
-          title={Titles.Home}
-          description={Descriptions.Home}
+          title={HomeConfig.Titulo}
+          description={HomeConfig.Descricao}
           backgroundImage={backgroundImage}
         />
 
         <div className="content">
           <SecaoLink
             src={imgSobre}
-            name={Names.Sobre}
-            title={Titles.Sobre}
-            description={Descriptions.Sobre}
-            url={Urls.Sobre}
-            customClass={Classes.Home}
+            name={SobreConfig.Nome}
+            title={SobreConfig.Titulo}
+            description={SobreConfig.Descricao}
+            url={SobreConfig.Path}
+            customClass={HomeConfig.Classe}
           />
           <SecaoLink
             src={imgPortfolio}
-            name={Names.Portfolio}
-            title={Titles.Portfolio}
-            description={Descriptions.Portfolio}
-            url={Urls.Portfolio}
-            customClass={Classes.Home}
+            name={PortfolioConfig.Nome}
+            title={PortfolioConfig.Titulo}
+            description={PortfolioConfig.Descricao}
+            url={PortfolioConfig.Path}
+            customClass={HomeConfig.Classe}
           />
           <SecaoLink
             src={imgContato}
-            name={Names.Contato}
-            title={Titles.Contato}
-            description={Descriptions.Contato}
-            url={Urls.Contato}
-            customClass={Classes.Home}
+            name={ContatoConfig.Nome}
+            title={ContatoConfig.Titulo}
+            description={ContatoConfig.Descricao}
+            url={ContatoConfig.Path}
+            customClass={HomeConfig.Classe}
           />
           <SecaoLink
             src={imgBlog}
-            name={Names.Blog}
-            title={Titles.Blog}
-            description={Descriptions.Blog}
-            url={Urls.Blog}
-            customClass={Classes.Home}
+            name={BlogConfig.Nome}
+            title={BlogConfig.Titulo}
+            description={BlogConfig.Descricao}
+            url={BlogConfig.Path}
+            customClass={HomeConfig.Classe}
           />
         </div>
 

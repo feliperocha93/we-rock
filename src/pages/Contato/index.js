@@ -1,37 +1,34 @@
 import React, { Component } from 'react';
-
 import Banner from '../../components/Banner'
 import SecaoLista from "../../components/SecaoLista";
 import Form from "../../components/Form";
-
-import { Classes, Descriptions, Names, Titles } from '../../constants/pagesEnum'
-import { Textos } from '../../constants/contactEnum'
+import { ContatoConfig, Cms } from '../../constants/pages/contatoEnum'
+import backgroundImage from '../../assets/img/banner/bg-contato.jpg';
 
 import './styles.css'
 
-import backgroundImage from '../../assets/img/banner/bg-contato.jpg';
 export default class Contato extends Component {
 
 	render() {
 
 		return (
 			<main>
-				<Banner 
-					title={Titles.Contato}
-					description={Descriptions.Contato}
+				<Banner
+					title={ContatoConfig.Titulo}
+					description={ContatoConfig.Descricao}
 					backgroundImage={backgroundImage}
 				/>
 				<SecaoLista
-					title={Names.Contato}
-					paragraphs={Textos.Introdução}
-					customClass={Classes.Contato}
+					title={ContatoConfig.Nome}
+					paragraphs={Cms.Paragrafos}
+					customClass={ContatoConfig.Classe}
 				/>
-				<Form 
+				<Form
 				/>
 				<section className="call">
 					<div className="container">
-						<p>"Pode dizer que meu sonho é inútil. Os loucos românticos sempre riem por último."</p>
-						<small>- Filipe Ret</small>
+						<p>{Cms.Blockquote}</p>
+						<small>{Cms.Cite}</small>
 					</div>
 				</section>
 			</main>

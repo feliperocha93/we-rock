@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import Banner from '../../components/Banner';
 import SecaoLink from '../../components/SecaoLink';
 import SecaoLista from '../../components/SecaoLista';
-import { Classes, Descriptions, Names, Titles, Urls } from '../../constants/pagesEnum';
-import { Textos } from '../../constants/sobreEnum';
-
+import { Cms, SobreConfig } from '../../constants/pages/sobreEnum';
+import { ContatoConfig } from '../../constants/pages/contatoEnum';
 import './styles.css';
 
 import backgroundImage from '../../assets/img/banner/bg-sobre.jpg';
@@ -19,35 +18,35 @@ export default class Sobre extends Component {
 	render() {
 		return (
 			<main>
-				<Banner 
-					title={Titles.Sobre}
-					description={Descriptions.Sobre}
+				<Banner
+					title={SobreConfig.Titulo}
+					description={SobreConfig.Descricao}
 					backgroundImage={backgroundImage}
 				/>
 				<SecaoLista
 					src={imgRock}
-					title="I'm Rock"
-					paragraphs={Textos.Introdução}
-					customClass={Classes.Sobre}
+					title={Cms.Introdução.titulo}
+					paragraphs={Cms.Introdução.paragrafos}
+					customClass={SobreConfig.Classe}
 				/>
 				<SecaoLista
 					src={imgContent}
-					title="Conteúdo"
-					paragraphs={Textos.Especificações}
-					customClass={Classes.Sobre}
+					title={Cms.Especificações.titulo}
+					paragraphs={Cms.Especificações.paragrafos}
+					customClass={SobreConfig.Classe}
 				/>
 				<SecaoLista
 					src={imgRockPlus}
-					title="Mais de mim"
-					paragraphs={Textos.Pessoal}
-					customClass={Classes.Sobre}
+					title={Cms.Pessoal.titulo}
+					paragraphs={Cms.Pessoal.paragrafos}
+					customClass={SobreConfig.Classe}
 				/>
 				<SecaoLink
 					src={imgContact}
-					title={Titles.Contato}
-					description={Descriptions.Contato}
-					url={Urls.Contato}
-					name={Names.Contato}
+					title={ContatoConfig.Titulo}
+					description={ContatoConfig.Descricao}
+					url={ContatoConfig.Path}
+					name={ContatoConfig.Nome}
 				/>
 			</main>
 		);

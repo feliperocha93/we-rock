@@ -1,6 +1,6 @@
 import React from "react";
 import IconeSocial from "../IconeSocial/index";
-import { Hrefs, Titles } from "../../constants/contactEnum";
+import { Cms } from "../../constants/pages/contatoEnum";
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedin, FaGithub, FaHeart, FaWhatsapp } from 'react-icons/fa';
 
@@ -17,34 +17,34 @@ const Footer = () => (
       <div className="flex">
         <IconeSocial
           color={iconColor}
-          href={Hrefs.Email}
+          href={Cms.Hrefs.Email}
           icon={<AiOutlineMail size={iconSize} color={iconColor} />}
-          title={Titles.Email}
-          >
-        </IconeSocial>
-
-        <IconeSocial 
-          color={iconColor}
-          href={Hrefs.Github}
-          icon={<FaGithub size={iconSize} color={iconColor} />}
-          title={Titles.Github}
-          >
-        </IconeSocial>
-        
-        <IconeSocial 
-          color={iconColor}
-          href={Hrefs.Linkedin}
-          icon={<FaLinkedin size={iconSize} color={iconColor} />}
-          title={Titles.Linkedin}
-          >
+          title={Cms.Titulos.Email}
+        >
         </IconeSocial>
 
         <IconeSocial
-          color={iconColor} 
-          href={Hrefs.Whatsapp}
+          color={iconColor}
+          href={Cms.Hrefs.Github}
+          icon={<FaGithub size={iconSize} color={iconColor} />}
+          title={Cms.Titulos.Github}
+        >
+        </IconeSocial>
+
+        <IconeSocial
+          color={iconColor}
+          href={Cms.Hrefs.Linkedin}
+          icon={<FaLinkedin size={iconSize} color={iconColor} />}
+          title={Cms.Titulos.Linkedin}
+        >
+        </IconeSocial>
+
+        <IconeSocial
+          color={iconColor}
+          href={Cms.Hrefs.Whatsapp}
           icon={<FaWhatsapp size={iconSize} color={iconColor} />}
-          title={Titles.Whatsapp}
-          >
+          title={Cms.Titulos.Whatsapp}
+        >
         </IconeSocial>
       </div>
     </div>

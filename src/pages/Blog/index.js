@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import api from '../../services/api';
 import Banner from '../../components/Banner';
 import Feed from '../../components/Feed';
-import { Descriptions, Titles } from '../../constants/pagesEnum';
+import { Cms, BlogConfig } from '../../constants/pages/blogEnum';
 import { MdSearch } from 'react-icons/md';
 
 import './styles.css'
@@ -53,15 +53,15 @@ export default class Blog extends Component {
 	render() {
 		const { keyword, newPosts, posts, tags, title } = this.state;
 		return (
-			<main className="blog">
+			<main className={BlogConfig.Classe}>
 				<Banner
-					title={Titles.Blog}
-					description={Descriptions.Blog}
+					title={BlogConfig.Titulo}
+					description={BlogConfig.Descricao}
 					backgroundImage={backgroundImage}
 				/>
 
 				<section className="container">
-					<h3>O que VOCÊ quer estudar hoje?</h3>
+					<h3>{Cms.TituloFeed}</h3>
 					<div className="tags center">
 						{tags.map(tag => {
 							return (
@@ -76,7 +76,7 @@ export default class Blog extends Component {
 						})}
 					</div>
 					<div className="input-bar">
-						<input placeholder="Digite um assunto..." type="text" value={keyword} onChange={this.handleChange} />
+						<input placeholder={Cms.InputPlaceholder} type="text" value={keyword} onChange={this.handleChange} />
 						<MdSearch size={24} color="#999" className="hover-scale" onClick={(e) => this.getKeyword(e, 'input')} />
 					</div>
 				</section>

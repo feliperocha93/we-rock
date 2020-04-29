@@ -3,8 +3,8 @@ import Banner from '../../components/Banner'
 import SecaoLista from '../../components/SecaoLista'
 import SecaoLink from '../../components/SecaoLink'
 import SecaoPort from '../../components/SecaoPort'
-import { PortfolioItems, Introducao } from '../../constants/portEnum'
-import { Classes, Descriptions, Names, Titles, Urls } from "../../constants/pagesEnum";
+import { Cms, PortfolioConfig } from '../../constants/pages/portfolioEnum'
+import { ContatoConfig } from '../../constants/pages/contatoEnum'
 
 import './styles.css'
 
@@ -21,38 +21,38 @@ export default class Portfolio extends Component {
 		return (
 			<main>
 
-				<Banner 
-					title={Titles.Portfolio}
-					description={Descriptions.Portfolio}
-          backgroundImage={backgroundImage}
+				<Banner
+					title={PortfolioConfig.Titulo}
+					description={PortfolioConfig.Descricao}
+					backgroundImage={backgroundImage}
 				/>
 
-				{PortfolioItems.map((item, index) => {
+				{Cms.Items.map((item, index) => {
 					return (
 						<SecaoPort
-						key={item.title}
-						title={item.title}
-						src={images[index]}
-						paragraphs={item.paragraphs}
-						domain={item.domain}
-						repo={item.repo}
-						customClass={Classes.Portfolio}
+							key={item.title}
+							title={item.title}
+							src={images[index]}
+							paragraphs={item.paragraphs}
+							domain={item.domain}
+							repo={item.repo}
+							customClass={PortfolioConfig.Classe}
 						/>
 					)
 				})}
 
 				<SecaoLista
-					title={Introducao.title}
-					paragraphs={Introducao.paragraphs}
-					customClass={Classes.Portfolio}
+					title={Cms.Introducao.titulo}
+					paragraphs={Cms.Introducao.paragrafos}
+					customClass={PortfolioConfig.Classe}
 				/>
 
 				<SecaoLink
 					src={imgContact}
-					title={Titles.Contato}
-					description={Descriptions.Contato}
-					url={Urls.Contato}
-					name={Names.Contato}
+					title={ContatoConfig.Titulo}
+					description={ContatoConfig.Descricao}
+					url={ContatoConfig.Path}
+					name={ContatoConfig.Nome}
 				/>
 
 			</main>

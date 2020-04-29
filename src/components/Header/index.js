@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { MdMenu, MdClose } from 'react-icons/md';
-import { Urls } from '../../constants/pagesEnum';
+import { Cms } from '../../constants/components/headerEnum';
 
 import './styles.css';
 
@@ -17,8 +17,8 @@ export default class Header extends Component {
 	}
 
 	handleClick() {
-		this.setState({isOpen: !this.state.isOpen});
-		
+		this.setState({ isOpen: !this.state.isOpen });
+
 		if (window.innerWidth < 767.8) {
 			const body = document.querySelector('body');
 			const overflow = this.state.isOpen ? '' : 'hidden';
@@ -47,24 +47,24 @@ export default class Header extends Component {
 							src={home}
 							alt="Ícone Home"
 							className="hover-scale"
-							title="Ir para Home"/>
+							title="Ir para Home" />
 					</Link>
 
 					<ul>
-						{Object.entries(Urls).map(([key, value]) =>
+						{Object.entries(Cms.Navegação).map(([key, value]) =>
 							key !== 'Home' ?
-							<li key={key}>
-								<Link
-									className="hover-border"
-									onClick={this.handleClick}
-									to={value}>
-									{key}
-								</Link>
-							</li> : null
+								<li key={key}>
+									<Link
+										className="hover-border"
+										onClick={this.handleClick}
+										to={value}>
+										{key}
+									</Link>
+								</li> : null
 						)}
 					</ul>
 				</nav>
-				
+
 			</header>
 		);
 	}
