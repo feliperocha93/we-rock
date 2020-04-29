@@ -34,8 +34,8 @@ export const Cms = {
     paragrafos: [
       `Atualmente, trabalho em uma grande empresa de consultoria de TI. 
     Gosto muito do ambiente corporativo, da concorrêncisa saudável e do incentivo a evolução.`,
-      `Entretanto, também tenho o interesse de ser dono do meu próprio negócio. ESTOU
-    ABERTO PARA FREELANCER e paralelo a isso também tenho algumas idéias de aplicações para serem colocadas em prática.`,
+      `Entretanto, também tenho o interesse de ser dono do meu próprio negócio. Estou
+      <b>aberto para freelancers</b> e, paralelo a isso, também tenho algumas idéias de aplicações para serem colocadas em prática.`,
       `No meio de todas essas tarefas, ainda consigo um tempo para trazer conteúdo para o blog.`
     ],
     titulo: 'Mais de mim',

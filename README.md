@@ -18,7 +18,7 @@ https://react-icons.netlify.com/#/search
 #### BACKLOG:
 - Blog: {
   - Uma seção para cadastro de e-mail marketing (ao fim do blog);  
-  - Consumir HTML no corpo do post;  
+  - Consumir HTML no corpo do post. **OBS**: *Testes okay - último parágrado do componente sobre*;  
 }  
 - Adicionar um modal após o formulário ser enviado;
 - Validação do formulário com yup;
