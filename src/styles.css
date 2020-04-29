@@ -30,10 +30,9 @@ body {
 }
 
 a {
+  display: block;
 	text-decoration: none;
 }
-
-
 
 button {
   cursor: pointer;
@@ -97,8 +96,6 @@ ol, ul {
 .secao:nth-of-type(even){
 	background-color: #fee;
 }
-
-@media only screen and (min-width: 767.8px) and (max-width: 959.8px) { }
 
 @media only screen and (min-width: 959.8px) { 
   .container {

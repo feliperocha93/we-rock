@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import api from '../../services/api';
 import { Link } from 'react-router-dom';
-import { PostConfig } from '../../constants/pages/postEnum';
+import { BlogConfig } from '../../constants/pages/blogEnum';
 import Banner from '../../components/Banner';
 import { MdExitToApp } from 'react-icons/md';
 
@@ -33,8 +33,8 @@ export default class Post extends Component {
       <section className="post">
 
         <Banner
-          title={PostConfig.Titulo}
-          description={PostConfig.Descricao}
+          title={BlogConfig.Titulo}
+          description={BlogConfig.Descricao}
           backgroundImage={backgroundImage}
         />
 

@@ -10,7 +10,7 @@ export default class Banner extends Component {
         style={{ backgroundImage: `url(${this.props.backgroundImage})` }}
       >
         <h1>{this.props.title}</h1>
-        <p>{this.props.description}</p>
+        <span>{this.props.description}</span>
       </section>
     );
   }
