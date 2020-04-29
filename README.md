@@ -18,7 +18,6 @@ https://react-icons.netlify.com/#/search
 #### BACKLOG:
 - Blog: {
   - Uma seção para cadastro de e-mail marketing (ao fim do blog);  
-  - Ajustar tamanho da lupa (no celular está ruim);
   - Consumir HTML no corpo do post;  
 }  
 - Adicionar um modal após o formulário ser enviado;

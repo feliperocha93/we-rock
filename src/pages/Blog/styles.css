@@ -1,6 +1,6 @@
 .blog {
   background-color: rgba(255, 238, 255, .5);
-  min-height: calc(100vh - 77px - 180px - 172px);
+  min-height: calc(100vh - 172px);
 }
 
 .blog a {
@@ -53,6 +53,12 @@
 }
 
 .blog .input-bar svg {
-  bottom: 6px;
+  bottom: 3px;
   right: 15px;
+}
+
+@media screen and (min-width: 767.8px) {
+  .blog {
+    min-height: calc(100vh - 77px - 172px);
+  }
 }

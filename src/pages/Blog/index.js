@@ -77,7 +77,7 @@ export default class Blog extends Component {
 					</div>
 					<div className="input-bar">
 						<input placeholder={Cms.InputPlaceholder} type="text" value={keyword} onChange={this.handleChange} />
-						<MdSearch size={24} color="#999" className="hover-scale" onClick={(e) => this.getKeyword(e, 'input')} />
+						<MdSearch size={30} color="#999" className="hover-scale" onClick={(e) => this.getKeyword(e, 'input')} />
 					</div>
 				</section>
 
