@@ -1,16 +1,10 @@
-.feed {
-  background-color: rgba(255, 238, 255, .5);
-  min-height: calc(100vh - 77px - 180px - 172px);
-}
-
-.feed a {
-  color: #333;
-  display: block;
-}
-
-.feed .input-bar svg {
-  bottom: 6px;
-  right: 15px;
+.feed h2 {
+  font-family: 'Gotu', sans-serif;
+  line-height: 1;
+  margin-bottom: 20px;
+  position: relative;
+  text-transform: uppercase;
+  width: fit-content;
 }
 
 .feed h2 > svg.new {

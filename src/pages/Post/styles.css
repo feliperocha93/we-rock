@@ -1,0 +1,38 @@
+.post .container {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.post h2 {
+  font-family: 'Gotu', sans-serif;
+  line-height: 1.5;
+  margin-bottom: 48px;
+  position: relative;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.post svg {
+  bottom: -36px;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+}
+
+.post p {
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+.post small {
+  color: #999;
+  cursor: pointer;
+  line-height: 2;
+  margin-right: 10px;
+}
+
+.post .tags {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}

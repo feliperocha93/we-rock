@@ -7,6 +7,7 @@ import Sobre from './pages/Sobre';
 import Portfolio from './pages/Portfolio';
 import Contato from './pages/Contato';
 import Blog from './pages/Blog';
+import Post from './pages/Post';
 
 const Routes = () => (
 	<Switch>
@@ -15,7 +16,7 @@ const Routes = () => (
 		<Route path="/portfolio" component={Portfolio} />
 		<Route path="/contato" component={Contato} />
 		<Route path="/blog" component={Blog} />
-		<Route path="/posts/:id" component={Blog} />
+		<Route path="/posts/:id" component={Post} />
 	</Switch>
 );
 

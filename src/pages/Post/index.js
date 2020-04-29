@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import api from '../../services/api';
 import { Link } from 'react-router-dom';
-
+import Banner from '../../components/Banner';
+import { Descriptions, Titles } from '../../constants/pagesEnum';
 import { MdExitToApp } from 'react-icons/md';
 
-
 import './styles.css';
+
+import backgroundImage from '../../assets/img/banner/bg-blog1.jpg';
+
 
 export default class Post extends Component {
   state = {
@@ -28,12 +31,18 @@ export default class Post extends Component {
     const query = this.state.query;
     return (
       <section className="post">
-        <article className="container">
 
+        <Banner
+          title={Titles.Blog}
+          description={Descriptions.Blog}
+          backgroundImage={backgroundImage}
+        />
+
+        <article className="container">
           <h2>
             {title}
             <Link to={{ pathname: '/blog', query }}>
-              <MdExitToApp className="hover-scale" size={36} color="#c3c3c3" onClick={this.backInitialFeed} />
+              <MdExitToApp className="hover-scale" size={36} color="#c3c3c3" />
             </Link>
           </h2>
 
@@ -53,8 +62,8 @@ export default class Post extends Component {
               )
             })}
           </div>
-
         </article>
+
       </section>
     )
   }

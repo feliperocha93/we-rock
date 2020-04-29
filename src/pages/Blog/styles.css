@@ -1,3 +1,13 @@
+.blog {
+  background-color: rgba(255, 238, 255, .5);
+  min-height: calc(100vh - 77px - 180px - 172px);
+}
+
+.blog a {
+  color: #333;
+  display: block;
+}
+
 .blog .tags {
   display: flex;
   flex-wrap: wrap;
@@ -42,11 +52,7 @@
   position: relative;
 }
 
-.blog h2 {
-  font-family: 'Gotu', sans-serif;
-  line-height: 1;
-  margin-bottom: 20px;
-  position: relative;
-  text-transform: uppercase;
-  width: fit-content;
+.blog .input-bar svg {
+  bottom: 6px;
+  right: 15px;
 }
