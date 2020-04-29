@@ -16,13 +16,29 @@ https://react-icons.netlify.com/#/search
 - mailto: não funciona no chromiun;
 
 #### BACKLOG:
-- Blog: {
-  - Uma seção para cadastro de e-mail marketing (ao fim do blog);  
+- BLOG: {
   - Consumir HTML no corpo do post. **OBS**: *Testes okay - último parágrado do componente sobre*;  
-}  
-- Adicionar um modal após o formulário ser enviado;
-- Validação do formulário com yup;
-- Na searchBar do Blog, colocar validação de no minimo 3 caracteres;
+}
+
+- EMAIL {
+  - Responsividade
+  - Gravar o e-mail na API
+}
+
+- MODAL {
+  - Formulário de contato
+  - Inscrição de E-mail
+}
+
+- YUP {
+  - Formulário de contato
+  - Inscrição de E-mail
+  - searchBar
+}
+
+- API {
+  - https://github.com/jesperorb/json-server-heroku *Desculpa, mas o foco é o front rsrsrs*
+}
 
 #### Sugestão para API:
 - https://blog.rocketseat.com.br/adonis-auth-jwt-api-rest/

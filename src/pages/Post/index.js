@@ -3,6 +3,7 @@ import api from '../../services/api';
 import { Link } from 'react-router-dom';
 import { BlogConfig } from '../../constants/pages/blogEnum';
 import Banner from '../../components/Banner';
+import Email from '../../components/Email';
 import { MdExitToApp } from 'react-icons/md';
 
 import './styles.css';
@@ -63,6 +64,8 @@ export default class Post extends Component {
             })}
           </div>
         </article>
+
+        <Email />
 
       </section>
     )

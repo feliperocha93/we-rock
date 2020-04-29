@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import api from '../../services/api';
 import Banner from '../../components/Banner';
+import Email from '../../components/Email';
 import Feed from '../../components/Feed';
 import { Cms, BlogConfig } from '../../constants/pages/blogEnum';
 import { MdSearch } from 'react-icons/md';
@@ -89,6 +90,7 @@ export default class Blog extends Component {
 					backInitialFeed={this.backInitialFeed}
 				/>
 
+				<Email />
 			</main>
 		);
 	}

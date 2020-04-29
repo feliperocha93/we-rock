@@ -1,6 +1,6 @@
 export const ContatoConfig = {
   Classe: 'contato',
-  Descricao: 'Não sou daqueles que visualiza e não responde',
+  Descricao: 'Não deixe de esclarecer suas dúvidas',
   Nome: 'Contato',
   Path: '/contato',
   Titulo: 'Fale comigo',
