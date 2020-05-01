@@ -1,10 +1,14 @@
 .email {
-  background-color: #fff;
+  background-color: rgba(160, 220, 110, .1);
+}
+
+.email .container {
+  align-items: center;
 }
 
 .email h3 {
-  color: #4cdef5;
   font-family: 'Gotu', sans-serif;
+  font-size: 24px;
   line-height: 1;
   margin-bottom: 20px;
   position: relative;
@@ -24,14 +28,15 @@
 
 .email .input-bar input {
   background-color: transparent;
-  border-bottom: 2px solid #4cdef5;
+  border-bottom: 2px solid #a4d555;
   border-radius: 0;
   color: #666;
   font-size: 1em;
-  margin-top: 15px;
-  padding-bottom: 5px;
+  margin: 15px auto 0;
+  padding-bottom: 3px;
+  padding-right: 35px;
   text-indent: 20px;
-  width: 100%;
+  width: 250px;
 }
 
 .email .input-bar input::placeholder {
@@ -39,8 +44,14 @@
 }
 
 .email .input-bar svg {
-  bottom: 3px;
+  bottom: 4.5px;
   cursor: pointer;
   position: absolute;
-  right: 15px;
+  right: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+	.email h3 {
+    font-size: 30px;
+  }
 }

@@ -52,7 +52,7 @@ export default class Portfolio extends Component {
 					title={ContatoConfig.Titulo}
 					description={ContatoConfig.Descricao}
 					url={ContatoConfig.Path}
-					name={ContatoConfig.Nome}
+					name={ContatoConfig.Nome} /*This component haven't customClass to prevent square image*/
 				/>
 
 			</main>

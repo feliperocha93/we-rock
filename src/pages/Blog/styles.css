@@ -57,7 +57,7 @@
   right: 15px;
 }
 
-@media screen and (min-width: 767.8px) {
+@media screen and (min-width: 768px) {
   .blog {
     min-height: calc(100vh - 77px - 172px);
   }

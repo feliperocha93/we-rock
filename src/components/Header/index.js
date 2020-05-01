@@ -19,7 +19,7 @@ export default class Header extends Component {
 	handleClick() {
 		this.setState({ isOpen: !this.state.isOpen });
 
-		if (window.innerWidth < 767.8) {
+		if (window.innerWidth < 768) {
 			const body = document.querySelector('body');
 			const overflow = this.state.isOpen ? '' : 'hidden';
 			body.style.overflow = overflow;

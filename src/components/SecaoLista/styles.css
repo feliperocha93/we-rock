@@ -12,7 +12,7 @@
 	text-align: justify;
 }
 
-@media only screen and (min-width: 747.8px) {
+@media only screen and (min-width: 768px) {
 	.secao  h3 {
 		font-size: 30px;
 	}

@@ -17,7 +17,7 @@
 	font-size: 12px;
 }
 
-@media only screen and (min-width: 747.8px) {
+@media only screen and (min-width: 768px) {
 	.contato.secao p {
 		max-width: 620px;
 	}

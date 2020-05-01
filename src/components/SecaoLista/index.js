@@ -5,7 +5,7 @@ import './styles.css';
 export default class SecaoLista extends Component {
   render() {
     return (
-      <section className={`secao ${this.props.customClass}`}>
+      <section className={`secao ${this.props.customClass || ''} `}>
         <div className="container align-center">
 
           <div>
