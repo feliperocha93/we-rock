@@ -212,5 +212,19 @@
       "id": 16,
       "name": "resize"
     }
+  ],
+  "email": [
+    {
+      "id": 1,
+      "email": "felipe.lucena@iteris.com.br"
+    },
+    {
+      "id": 2,
+      "email": "fee.rocha@hotmail.com"
+    },
+    {
+      "id": 3,
+      "email": "fee.rocha@hotmail.com"
+    }
   ]
 }
