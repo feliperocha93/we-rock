@@ -5,7 +5,7 @@ import { Cms } from '../../constants/components/headerEnum';
 
 import './styles.css';
 
-import home from '../../assets/img/irock-home.png'
+import home from '../../assets/img/werock-home.png'
 
 export default class Header extends Component {
 	constructor(props) {

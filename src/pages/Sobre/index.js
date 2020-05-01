@@ -6,9 +6,9 @@ import { Cms, SobreConfig } from '../../constants/pages/sobreEnum';
 import './styles.css';
 
 import backgroundImage from '../../assets/img/banner/bg-sobre.jpg';
-import imgRock from '../../assets/img/sobre/irock-me.jpg';
-import imgContent from '../../assets/img/sobre/irock-content.jpg';
-import imgRockPlus from '../../assets/img/sobre/irock-plus.jpg';
+import imgRock from '../../assets/img/sobre/werock-me.jpg';
+import imgContent from '../../assets/img/sobre/werock-content.jpg';
+import imgRockPlus from '../../assets/img/sobre/werock-plus.jpg';
 
 export default class Sobre extends Component {
 	render() {
