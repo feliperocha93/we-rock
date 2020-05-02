@@ -16,19 +16,20 @@ export default class Post extends Component {
     post: {
       body: [],
       keywords: [],
+      user: [],
     },
   }
 
   async componentDidMount() {
     const { id } = this.props.match.params;
-    const postResponse = await api.get(`posts/${id}`);
+    const postResponse = await api.get(`posts/${id}?_expand=user`);
     this.setState({ post: postResponse.data });
 
     if (await this.props.location.query) this.setState({ query: this.props.location.query });
   }
 
   render() {
-    const { title, body, date, userId, keywords } = this.state.post;
+    const { title, body, date, user, keywords } = this.state.post;
     const query = this.state.query;
     return (
       <section className="post">
@@ -48,7 +49,7 @@ export default class Post extends Component {
           </h2>
 
           {body.map((p, index) => <p key={index}>{p}</p>)}
-          <small>{userId} - {date}</small>
+          <small>{user.name} - {date}</small>
 
           <div className="tags">
             {keywords.map(keyword => {

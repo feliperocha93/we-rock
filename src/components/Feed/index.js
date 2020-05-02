@@ -25,7 +25,7 @@ export default class Feed extends Component {
                 <div className="card hover-scale" key={item.id}>
                   <Link to={{ pathname: `posts/${item.id}`, query: keyword }}>
                     <h3>{item.title}</h3>
-                    <h5>{`${item.userId} - ${item.date}`}</h5>
+                    <h5>{`${item.user.name} - ${item.date}`}</h5>
                     <div className="tags">
                       {item.keywords.map(keyword => {
                         return (

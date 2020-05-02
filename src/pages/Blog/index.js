@@ -20,7 +20,7 @@ export default class Blog extends Component {
 	}
 
 	async componentDidMount() {
-		const postsResponse = await api.get('posts?_limit=4&_sort=id&_order=desc');
+		const postsResponse = await api.get('posts?_expand=user&_limit=4&_sort=id&_order=desc');
 		const tagsResponse = await api.get('tags');
 
 		this.setState({
@@ -34,7 +34,7 @@ export default class Blog extends Component {
 	}
 
 	async searchKeyword(keyword) {
-		const searchResponse = await api.get(`posts?keywords_like=${keyword}`);
+		const searchResponse = await api.get(`posts?_expand=user&keywords_like=${keyword}`);
 		this.setState({ keyword, posts: searchResponse.data, title: keyword });
 	}
 

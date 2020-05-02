@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.19.2",
+    "lodash": "^4.17.15",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-icons": "^3.9.0",
@@ -15,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "api": "cd API && json-server --watch db.json --port 3004"
+    "api": "cd API && json-server db.json --watch --port 3004"
   },
   "eslintConfig": {
     "extends": "react-app"
