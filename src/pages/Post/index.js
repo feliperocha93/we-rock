@@ -48,8 +48,8 @@ export default class Post extends Component {
             </Link>
           </h2>
 
-          {body.map((p, index) => <p key={index}>{p}</p>)}
-          <small>{user.name} - {date}</small>
+          <div div className="paragraphs" dangerouslySetInnerHTML={{ __html: body }} />
+          <span>{user.name} - {date}</span>
 
           <div className="tags">
             {keywords.map(keyword => {

@@ -86,6 +86,8 @@ ol, ul {
   transform: scale(1.1);
 }
 
+
+
 .rounded-img {
   border-radius: 200px;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, .35);
@@ -94,7 +96,36 @@ ol, ul {
 }
 
 .secao:nth-of-type(even){
-	background-color: #fee;
+  background-color: #fee;
+}
+
+/*Color*/
+.css {
+  color: #396DC0;
+}
+.github {
+  color: #24292E;
+}
+.heroku {
+  color: #6762A6;
+}
+.html {
+  color:#E44D26;
+}
+.js {
+  color: #F7E032;
+}
+.linkedin {
+  color: #1177B5;
+}
+.netlify {
+  color: #52AFA1;
+}
+.node {
+  color: #026e00;
+}
+.react {
+  color: #61DAFB;
 }
 
 @media only screen and (min-width: 959.8px) { 

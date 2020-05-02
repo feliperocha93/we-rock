@@ -4,11 +4,7 @@
       "id": 1,
       "title": "Como customizar o envio de formulário no Netlify + React",
       "date": "20/04/2020",
-      "body": [
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!"
-      ],
+      "body": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p>",
       "keywords": [
         "form",
         "react",
@@ -20,11 +16,7 @@
       "id": 2,
       "title": "Como habilitar o react-router-dom ou redirecionamento no netlify",
       "date": "20/04/2020",
-      "body": [
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!"
-      ],
+      "body": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p>",
       "keywords": [
         "react",
         "react-router-dom",
@@ -36,11 +28,7 @@
       "id": 3,
       "title": "Como integrar o formulário da sua aplicação React no Netlify",
       "date": "20/04/2020",
-      "body": [
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!"
-      ],
+      "body": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p>",
       "keywords": [
         "form",
         "react",
@@ -53,11 +41,7 @@
       "id": 4,
       "title": "Criando uma API em 2 minutos com json-server",
       "date": "20/04/2020",
-      "body": [
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!"
-      ],
+      "body": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p>",
       "keywords": [
         "api",
         "json-server",
@@ -69,11 +53,7 @@
       "id": 5,
       "title": "É possível receber um formulário sem ter backend na aplicação ?",
       "date": "20/04/2020",
-      "body": [
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!"
-      ],
+      "body": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p>",
       "keywords": [
         "form",
         "backend",
@@ -86,11 +66,7 @@
       "title": "Rapidinhas: como desabilitar o resize do textarea",
       "parent": 1,
       "date": "20/04/2020",
-      "body": [
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!"
-      ],
+      "body": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p>",
       "keywords": [
         "textarea",
         "css",
@@ -102,11 +78,7 @@
       "id": 7,
       "title": "Você sabe como remover o box-shadow interno de um textarea no Safari?",
       "date": "20/04/2020",
-      "body": [
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!"
-      ],
+      "body": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p>",
       "keywords": [
         "box-shadow",
         "textarea",
@@ -120,11 +92,7 @@
       "id": 8,
       "title": "Como testar o frontend de sua aplicação no seu dispositivo mobile",
       "date": "21/04/2020",
-      "body": [
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo. Quam sunt libero error!"
-      ],
+      "body": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, omnis voluptatibus. Eum recusandae, rem mollitia illum harum, maiores alias totam dolorem exercitationem, impedit est fugit quo.</p>",
       "keywords": [
         "frontend",
         "mobile",

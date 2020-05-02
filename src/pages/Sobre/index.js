@@ -21,20 +21,20 @@ export default class Sobre extends Component {
 				/>
 				<SecaoLista
 					src={imgRock}
-					title={Cms.Introdução.titulo}
-					paragraphs={Cms.Introdução.paragrafos}
+					title={Cms.Introdution.title}
+					body={Cms.Introdution.body}
 					customClass={SobreConfig.Classe}
 				/>
 				<SecaoLista
 					src={imgContent}
-					title={Cms.Especificações.titulo}
-					paragraphs={Cms.Especificações.paragrafos}
+					title={Cms.Especification.title}
+					body={Cms.Especification.body}
 					customClass={SobreConfig.Classe}
 				/>
 				<SecaoLista
 					src={imgRockPlus}
-					title={Cms.Pessoal.titulo}
-					paragraphs={Cms.Pessoal.paragrafos}
+					title={Cms.Pessoal.title}
+					body={Cms.Pessoal.body}
 					customClass={SobreConfig.Classe}
 				/>
 				<Email />

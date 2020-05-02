@@ -20,7 +20,7 @@ export default class Contato extends Component {
 				/>
 				<SecaoLista
 					title={ContatoConfig.Nome}
-					paragraphs={Cms.Paragrafos}
+					body={Cms.Introduction}
 					customClass={ContatoConfig.Classe}
 				/>
 				<Form

@@ -5,10 +5,10 @@ import { FaDesktop, FaGithub } from 'react-icons/fa';
 import './styles.css';
 
 export default class SecaoPort extends Component {
-	
-	render() {
-		return (
-			<section className={`secao ${this.props.customClass}`}>
+
+  render() {
+    return (
+      <section className={`secao ${this.props.customClass}`}>
         <div className="container">
 
           <h3>{this.props.title}</h3>
@@ -21,12 +21,8 @@ export default class SecaoPort extends Component {
             />
           </a>
 
-          <div className="paragraphs">
-            {this.props.paragraphs.map((paragraph, index) => (
-              <p key={index}>{paragraph}</p>
-            ))}
-          </div>
-          
+          <div className="paragraphs" dangerouslySetInnerHTML={{ __html: this.props.body }} />
+
           <div className="flex">
             <a
               href={this.props.domain}
@@ -50,7 +46,7 @@ export default class SecaoPort extends Component {
 
         </div>
       </section>
-		);
-	}
+    );
+  }
 
 }

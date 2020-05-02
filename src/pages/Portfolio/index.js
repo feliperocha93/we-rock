@@ -33,19 +33,13 @@ export default class Portfolio extends Component {
 							key={item.title}
 							title={item.title}
 							src={images[index]}
-							paragraphs={item.paragraphs}
+							body={item.body}
 							domain={item.domain}
 							repo={item.repo}
 							customClass={PortfolioConfig.Classe}
 						/>
 					)
 				})}
-
-				<SecaoLista
-					title={Cms.Introducao.titulo}
-					paragraphs={Cms.Introducao.paragrafos}
-					customClass={PortfolioConfig.Classe}
-				/>
 
 				<SecaoLink
 					src={imgContact}

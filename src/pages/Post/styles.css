@@ -24,6 +24,12 @@
   margin-bottom: 2rem;
 }
 
+.post span {
+  color: #999;
+  font-family: 'Gotu', sans-serif;
+  font-weight: bold;
+}
+
 .post small {
   color: #999;
   cursor: pointer;

@@ -8,5 +8,5 @@ export const BlogConfig = {
 
 export const Cms = {
   InputPlaceholder: 'Digite um assunto...',
-  TituloFeed: 'O que VOCÊ quer estudar hoje?'
+  FeedTitle: 'O que VOCÊ quer estudar hoje?'
 }

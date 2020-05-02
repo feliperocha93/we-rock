@@ -62,7 +62,7 @@ export default class Blog extends Component {
 				/>
 
 				<section className="container">
-					<h3>{Cms.TituloFeed}</h3>
+					<h3>{Cms.FeedTitle}</h3>
 					<div className="tags center">
 						{tags.map(tag => {
 							return (

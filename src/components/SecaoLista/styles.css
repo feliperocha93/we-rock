@@ -8,8 +8,9 @@
 
 .secao p {
 	font-size: 18px;
+	line-height: 1.75;
 	margin-bottom: 20px;
-	text-align: justify;
+	text-align: left;
 }
 
 @media only screen and (min-width: 768px) {

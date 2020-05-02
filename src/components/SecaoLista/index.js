@@ -19,11 +19,7 @@ export default class SecaoLista extends Component {
             <h3>{this.props.title}</h3>
           </div>
 
-          <div className="paragraphs">
-            {this.props.paragraphs.map((paragraph, index) => (
-              <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }}></p>
-            ))}
-          </div>
+          <div className="paragraphs" dangerouslySetInnerHTML={{ __html: this.props.body }} />
 
         </div>
       </section>
