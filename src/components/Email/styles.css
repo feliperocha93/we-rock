@@ -24,6 +24,7 @@
 
 .email .input-bar {
   position: relative;
+  width: 80%;
 }
 
 .email .input-bar input {
@@ -36,7 +37,12 @@
   padding-bottom: 3px;
   padding-right: 35px;
   text-indent: 20px;
-  width: 250px;
+  width: 100%;
+  -webkit-appearance: none;
+}
+
+.email .input-bar input:focus {
+  border-bottom: 2px solid #4cdef5;
 }
 
 .email .input-bar input::placeholder {
@@ -51,7 +57,20 @@
 }
 
 .email .input-bar svg:hover {
-  fill: #a4d555;
+  fill: #a4d555 !important;
+}
+
+.email small {
+  color: #999;
+  display: block;
+  font-size: 12px;
+  opacity: 0;
+  position: absolute;
+  transition: opacity .3s ease;
+}
+
+.email input:focus:not(:valid) + small {
+  opacity: .5;
 }
 
 @media only screen and (min-width: 768px) {

@@ -45,6 +45,8 @@ export default class Email extends Component {
               onChange={this.handleChange}
               required
             />
+            <small className="error">{Cms.Validation}</small>
+
             <button type="submit" title={Cms.altTitle}>
               <MdSend size={30} color="#999" className="hover-scale" />
             </button>

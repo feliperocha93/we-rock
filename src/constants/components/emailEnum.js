@@ -14,4 +14,5 @@ export const Cms = {
       "error"
     ],
   },
+  Validation: "Digite um e-mail válido",
 }

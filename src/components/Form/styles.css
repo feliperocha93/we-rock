@@ -74,8 +74,7 @@
     width: 620px;
   }
 
-.formulario textarea:focus:not(:valid) + small {
-  opacity: 1;
-}
-
+  .formulario textarea:focus:not(:valid) + small {
+    opacity: 1;
+  }
 }

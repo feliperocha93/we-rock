@@ -48,6 +48,10 @@
   color: #999;
 }
 
+.blog input:focus {
+  border-bottom: 1px solid #4cdef5;
+}
+
 .blog .input-bar {
   position: relative;
 }
@@ -55,6 +59,10 @@
 .blog .input-bar svg {
   bottom: 3px;
   right: 15px;
+}
+
+.blog .input-bar svg:hover {
+  fill: #a4d555;
 }
 
 @media screen and (min-width: 768px) {
