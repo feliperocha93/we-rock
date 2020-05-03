@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import Banner from '../../components/Banner'
-import SecaoLista from '../../components/SecaoLista'
-import SecaoLink from '../../components/SecaoLink'
-import SecaoPort from '../../components/SecaoPort'
-import { Cms, PortfolioConfig } from '../../constants/pages/portfolioEnum'
-import { ContatoConfig } from '../../constants/pages/contatoEnum'
+import Banner from '../../components/Banner';
+import SecaoLink from '../../components/SecaoLink';
+import SecaoPort from '../../components/SecaoPort';
+import { Cms, PortfolioConfig } from '../../constants/pages/portfolioEnum';
+import { ContatoConfig } from '../../constants/pages/contatoEnum';
 
 import './styles.css'
 

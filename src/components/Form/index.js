@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-
+import { Cms } from '../../constants/components/formEnum';
+import swal from 'sweetalert';
 import './styles.css';
 
 const encode = (data) => {
@@ -29,9 +30,8 @@ export default class Form extends Component {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "form-contato", ...this.state })
     })
-      .then(() => alert("Success!"))
-      .catch(error => alert(error));
-
+      .then(() => swal(...Cms.Message.success))
+      .catch(() => swal(...Cms.Message.error));
     e.preventDefault();
   };
 
@@ -48,22 +48,22 @@ export default class Form extends Component {
             <input type="hidden" name="form-name" value="form-contato" />
 
             <label>Nome</label>
-            <input type="text" name="nome" onChange={this.handleChange}/>
+            <input type="text" name="nome" onChange={this.handleChange} required />
 
             <label>Email</label>
-            <input type="email" name="email" onChange={this.handleChange}/>
+            <input type="email" name="email" onChange={this.handleChange} required />
 
-            <label>Whatsapp</label> 
-            <input type="number" name="whatsapp" onChange={this.handleChange}/>
+            <label>Whatsapp</label>
+            <input type="number" name="whatsapp" onChange={this.handleChange} required />
 
             <label>Mensagem</label>
-            <textarea name="mensagem" onChange={this.handleChange}></textarea>
+            <textarea name="mensagem" onChange={this.handleChange} required></textarea>
 
             <button
               type="submit"
-              title="Clique após preencher o formulário"
+              title={Cms.Button.altTitle}
               className="btn hover-border">
-                Enviar
+              {Cms.Button.title}
             </button>
           </form>
 

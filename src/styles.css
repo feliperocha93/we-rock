@@ -86,8 +86,6 @@ ol, ul {
   transform: scale(1.1);
 }
 
-
-
 .rounded-img {
   border-radius: 200px;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, .35);
@@ -99,7 +97,24 @@ ol, ul {
   background-color: #fee;
 }
 
-/*Color*/
+.swal-title {
+  font-family: 'Gotu';
+}
+
+.swal-text {
+  font-family: 'Montserrat';
+  line-height: 1.75;
+  max-width: calc(100% - 40px);
+  text-align: center;
+}
+
+@media only screen and (min-width: 959.8px) { 
+  .container {
+    max-width: 800px;
+  }
+ }
+
+ /*Colors*/
 .css {
   color: #396DC0;
 }
@@ -127,9 +142,3 @@ ol, ul {
 .react {
   color: #61DAFB;
 }
-
-@media only screen and (min-width: 959.8px) { 
-  .container {
-    max-width: 800px;
-  }
- }
