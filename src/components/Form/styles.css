@@ -13,10 +13,12 @@
   color: #333;
   font-family: 'Montserrat';
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   padding: 5px;
   text-indent: 5px;
+  transition: all .2 ease;
   width: 100%;
+  -webkit-appearance: none;
 }
 
 .formulario textarea {
@@ -25,17 +27,24 @@
   color: #333;
   font-family: 'Montserrat';
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-top: 10px;
   min-height: 120px;
-  padding: 5px;
+  padding: 4px 8px;
   resize: none;
-  text-indent: 5px;
   width: 100%;
   -webkit-appearance: none;
 }
 
+.formulario input:focus {
+  box-shadow: 5px 0 0 0#fff,
+              -5px 0 0 0#fff,
+              0 -5px 0 0#fff,
+              0 0 5px #4cdef5;
+}
+
 .formulario textarea:focus {
+  box-shadow: 0 0 3px #4cdef5;
   outline: none;
 }
 
@@ -46,8 +55,27 @@
   margin: 0 auto;
 }
 
+.formulario small {
+  color: #999;
+  display: block;
+  font-size: 12px;
+  margin-top: -30px;
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+
+.formulario input:focus:not(:valid) + small,
+.formulario textarea:focus:not(:valid) + small {
+  opacity: .5;
+}
+
 @media only screen and (min-width: 768px) {
 	.formulario form {
     width: 620px;
   }
+
+.formulario textarea:focus:not(:valid) + small {
+  opacity: 1;
+}
+
 }

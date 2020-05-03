@@ -35,6 +35,7 @@ export default class Form extends Component {
         this.setState({ nome: '', email: '', whatsapp: '', mensagem: '' });
       })
       .catch(() => swal(...Cms.Message.error));
+
     e.preventDefault();
   };
 
@@ -51,16 +52,47 @@ export default class Form extends Component {
             <input type="hidden" name="form-name" value="form-contato" />
 
             <label>Nome</label>
-            <input type="text" name="nome" value={this.state.nome} onChange={this.handleChange} required />
+            <input
+              type="text"
+              name="nome"
+              value={this.state.nome}
+              onChange={this.handleChange}
+              minLength="3"
+              required
+            />
+            <small className="error">{Cms.Validation.nome}</small>
 
             <label>Email</label>
-            <input type="email" name="email" value={this.state.email} onChange={this.handleChange} required />
+            <input
+              type="email"
+              name="email"
+              value={this.state.email}
+              onChange={this.handleChange}
+              required
+            />
+            <small className="error">{Cms.Validation.email}</small>
 
             <label>Whatsapp</label>
-            <input type="number" name="whatsapp" value={this.state.whatsapp} onChange={this.handleChange} required />
+            <input
+              type="text"
+              name="whatsapp"
+              value={this.state.whatsapp}
+              onChange={this.handleChange}
+              minLength="11"
+              maxLength="11"
+              required
+            />
+            <small className="error">{Cms.Validation.whatsapp}</small>
 
             <label>Mensagem</label>
-            <textarea name="mensagem" value={this.state.mensagem} onChange={this.handleChange} required></textarea>
+            <textarea
+              name="mensagem"
+              value={this.state.mensagem}
+              onChange={this.handleChange}
+              minLength="20"
+              required
+            />
+            <small className="error">{Cms.Validation.mensagem}</small>
 
             <button
               type="submit"
