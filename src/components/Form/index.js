@@ -51,7 +51,7 @@ export default class Form extends Component {
             <input type="hidden" name="form-name" value="form-contato" />
 
             <label>Nome</label>
-            <input type="text" name="nome" value={this.state.name} onChange={this.handleChange} required />
+            <input type="text" name="nome" value={this.state.nome} onChange={this.handleChange} required />
 
             <label>Email</label>
             <input type="email" name="email" value={this.state.email} onChange={this.handleChange} required />
