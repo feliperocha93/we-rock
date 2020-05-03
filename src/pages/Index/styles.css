@@ -1,3 +1,7 @@
+.secao.home img {
+	cursor: pointer;
+}
+
 @media only screen and (min-width: 959.8px) {
 	.home .content {
 		display: flex;

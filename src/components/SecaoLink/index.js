@@ -9,11 +9,16 @@ export default class Secao extends Component {
 			<section className={`secao ${this.props.customClass || ''}`}>
 				<div className="container align-center">
 
-					<img
-						src={this.props.src}
-						className="rounded-img hover-scale"
-						alt={`Imagem de chamada para página ${this.props.name}`}
-						title={this.props.title} />
+					<Link
+						to={this.props.url}
+						title={`Navegue até ${this.props.name}`}>
+						<img
+							src={this.props.src}
+							className="rounded-img hover-scale"
+							alt={`Imagem de chamada para página ${this.props.name}`}
+							title={this.props.title}
+						/>
+					</Link>
 
 					<h2>{this.props.title}</h2>
 					<span>{this.props.description}</span>

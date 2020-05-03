@@ -2,7 +2,7 @@ export const BlogConfig = {
   Classe: 'blog',
   Descricao: 'Conteúdo inteligente pra você detonar!',
   Nome: 'Blog',
-  Path: '/',
+  Path: '/blog',
   Titulo: 'We Rock Blog',
 }
 
