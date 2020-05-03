@@ -30,7 +30,10 @@ export default class Form extends Component {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "form-contato", ...this.state })
     })
-      .then(() => swal(...Cms.Message.success))
+      .then(() => {
+        swal(...Cms.Message.success);
+        this.setState({ nome: '', email: '', whatsapp: '', mensagem: '' });
+      })
       .catch(() => swal(...Cms.Message.error));
     e.preventDefault();
   };
@@ -48,16 +51,16 @@ export default class Form extends Component {
             <input type="hidden" name="form-name" value="form-contato" />
 
             <label>Nome</label>
-            <input type="text" name="nome" onChange={this.handleChange} required />
+            <input type="text" name="nome" value={this.state.name} onChange={this.handleChange} required />
 
             <label>Email</label>
-            <input type="email" name="email" onChange={this.handleChange} required />
+            <input type="email" name="email" value={this.state.email} onChange={this.handleChange} required />
 
             <label>Whatsapp</label>
-            <input type="number" name="whatsapp" onChange={this.handleChange} required />
+            <input type="number" name="whatsapp" value={this.state.whatsapp} onChange={this.handleChange} required />
 
             <label>Mensagem</label>
-            <textarea name="mensagem" onChange={this.handleChange} required></textarea>
+            <textarea name="mensagem" value={this.state.mensagem} onChange={this.handleChange} required></textarea>
 
             <button
               type="submit"
