@@ -8,7 +8,7 @@ import { MdExitToApp } from 'react-icons/md';
 
 import './styles.css';
 
-import backgroundImage from '../../assets/img/banner/bg-blog1.jpg';
+import backgroundImage from '../../assets/img/banner/bg-open.jpg';
 
 export default class Post extends Component {
   state = {

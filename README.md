@@ -16,4 +16,8 @@ https://react-icons.netlify.com/#/search
 - mailto: não funciona no chromiun;
 
 ### FAKE API:
-Por enquanto rodando com json-server;
+Por enquanto rodando com json-server no heroku;
+
+### Bugs no netlify:
+- não consigo acessar os posts pela url;
+- background do banner de posts não aparece;
