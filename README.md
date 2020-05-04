@@ -14,3 +14,6 @@ https://react-icons.netlify.com/#/search
 
 #### Problemas com Cross-Browser:
 - mailto: não funciona no chromiun;
+
+### FAKE API:
+Por enquanto rodando com json-server;
