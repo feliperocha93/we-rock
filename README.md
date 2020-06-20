@@ -1,3 +1,9 @@
+# Acesse:
+https://we-rock.netlify.app/
+
+## Em breve:
+Desenvolvimento da API e start nas postagens com conteúdo real.
+
 ### Introdução:
 
 Este blog foi inicialmente planejado para compor meu portfólio pessoal na busca do meu primeiro estágio da área de desenvolvimento de software. O escopo inicial era de um blog em Wordpress, tecnologia qual já tive uma pequena vivência. O projeto não foi finalizado, tendo sido desenvolvido apenas o front-end, sem o uso de nenhuma lib.  
